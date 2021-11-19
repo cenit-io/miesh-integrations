@@ -1,3 +1,7 @@
 - [Overview](overview.md)
 - **Authorizations**
 - [SAP SuccessFactors](authorizations/sap-success-factors.md)
+- **Connections**
+- [SAP SuccessFactors](connections/sap-success-factors.md)
+- **Webhooks**
+- [SAP SuccessFactors](webhooks/sap-success-factors.md)
