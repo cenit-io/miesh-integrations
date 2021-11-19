@@ -19,6 +19,29 @@
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
 
+## Snippet
+
+```Ruby
+data = begin 
+  JSON.parse(data, symbolize_names: true)
+rescue
+  Cenit.fail(data)
+end
+
+items = data[:d][:results]
+
+items.each do |item|
+  target = {
+    personIdExternal: item[:personIdExternal],
+    firstName: item[:firstName],
+    lastName: item[:lastName],
+    data: item
+  }
+
+  target_data_type.create_from_json!(target, primary_field: [:personIdExternal])
+end
+```
+
 ## Snapshots of the process
 
 ### Goto translator module
