@@ -18,6 +18,29 @@
 
     > **Note**: In schema you can define the main attrs and a rawData attr of type object to store all the information of the resource.
 
+## Snippet
+
+```JSON
+{
+  "type": "object",
+  "properties": {
+    "personIdExternal": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "rawData": {
+      "type": "object",
+      "visible": false
+    }
+  }
+}
+```
+
 ## Snapshots of the process
 
 ### Goto data-type module
