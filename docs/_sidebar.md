@@ -1,7 +1,19 @@
 - [Overview](overview.md)
 - **Authorizations**
 - [SAP SuccessFactors](authorizations/sap-success-factors.md)
+- [AWS-S3](todo.md)
 - **Connections**
 - [SAP SuccessFactors](connections/sap-success-factors.md)
+- [AWS-S3](todo.md)
 - **Webhooks**
 - [SAP SuccessFactors](webhooks/sap-success-factors.md)
+- [AWS-S3](todo.md)
+- **Data-Types**
+- [SAP SuccessFactors](todo.md)
+- [AWS-S3](todo.md)
+- **Translators (parsers)**
+- [SAP SuccessFactors](todo.md)
+- [AWS-S3](todo.md)
+- **Flows**
+- [SAP SuccessFactors](todo.md)
+- [AWS-S3](todo.md)
