@@ -26,3 +26,7 @@ a.see-more {
   font-weight: bold;
   color: aqua;
 }
+
+.markdown-section a {
+  color: aqua;
+}
