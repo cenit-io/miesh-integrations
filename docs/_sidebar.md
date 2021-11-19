@@ -15,5 +15,5 @@
 - [SAP SuccessFactors](translators/sap-success-factors.md)
 - [AWS-S3](todo.md)
 - **Flows**
-- [SAP SuccessFactors](todo.md)
+- [SAP SuccessFactors](flows/sap-success-factors.md)
 - [AWS-S3](todo.md)
