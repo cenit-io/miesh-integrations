@@ -30,3 +30,8 @@ a.see-more {
 .markdown-section a {
   color: aqua;
 }
+
+img.medium-zoom-image {
+  max-width: calc(50% - 20px);
+  margin-right: 10px;
+}
