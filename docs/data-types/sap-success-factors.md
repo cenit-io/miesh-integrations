@@ -18,7 +18,7 @@
 
     > **Note**: In schema you can define the main attrs and a rawData attr of type object to store all the information of the resource.
 
-## Snippet
+## Schema snippet
 
 ```JSON
 {

@@ -16,10 +16,11 @@
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: parse_from_sapsf_to_cenit_perpersonal
     >- **Target data type**: SAPSuccessFactors | PerPersonal
+    >- **Code**: the code snippet of parser in Ruby language
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
 
-## Snippet
+## Code snippet
 
 ```Ruby
 data = begin 
