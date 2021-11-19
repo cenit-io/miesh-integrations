@@ -9,7 +9,7 @@
 - [SAP SuccessFactors](webhooks/sap-success-factors.md)
 - [AWS-S3](todo.md)
 - **Data-Types**
-- [SAP SuccessFactors](todo.md)
+- [SAP SuccessFactors](data-types/sap-success-factors.md)
 - [AWS-S3](todo.md)
 - **Translators (parsers)**
 - [SAP SuccessFactors](todo.md)
