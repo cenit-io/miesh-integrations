@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CenitIO: Miesh Integrations</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- Theme: Vue -->
+  <!--<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">-->
+  <!-- Theme: Simple -->
+  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">-->
+  <!-- Theme: Simple Dark -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+
+  <!-- Alternate Stylesheets -->
+  <link rel="stylesheet alternate" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"
+        title="Defaults">
+  <link rel="stylesheet alternate"
+        href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark">
+
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+
+  <script src="https://use.fontawesome.com/3a291010d2.js"></script>
+</head>
+<body>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'Miesh Integrations',
+    repo: '',
+
+    homepage: 'overview.md',
+    loadSidebar: true,
+    relativePath: false,
+
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+    },
+
+    auto2top: true,
+    maxLevel: 3,
+    subMaxLevel: 3,
+
+    // PLUGINS
+    // -----------------------------------------------------------------
+    executeScript: true,
+    search: {
+      depth: 3,
+      noData: 'No results!',
+      placeholder: 'Search...'
+    }
+  }
+</script>
+<!-- Docsify v4 -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!-- docsify-search (latest v0.x.x) -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+</body>
+</html>
