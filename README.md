@@ -13,7 +13,7 @@
 #### Starts the development server for Guides & Utilities:
 
 ```
-  docsify serve docs
+docsify serve docs
 ```
 
 #### Build web_deploy folder with static assets:

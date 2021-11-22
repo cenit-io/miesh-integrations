@@ -17,3 +17,8 @@
 - **Flows**
 - [SAP SuccessFactors](flows/sap-success-factors.md)
 - [AWS-S3](todo.md)
+- **Algorithms**
+- [Algorithms](algorithms/miesh-algorithms.md)
+- [Encrypt](algorithms/miesh-encrypt.md)
+- [Decrypt](algorithms/miesh-decrypt.md)
+- [Test Encrypt and Decrypt](algorithms/miesh-encrypt-decrypt.md)
