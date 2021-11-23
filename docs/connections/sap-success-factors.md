@@ -17,6 +17,7 @@
     >- **Name**: connection
     >- **Url**: https://api2.successfactors.eu/odata/v2/
     >- **Authorization**: SAPSuccessFactors | auth-basic
+    >- **Parameters**: $format = JSON
 
 ## Snapshots of the process
 

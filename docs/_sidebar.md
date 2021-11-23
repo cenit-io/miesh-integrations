@@ -1,6 +1,7 @@
 - [Overview](overview.md)
 - **Authorizations**
 - [SAP SuccessFactors](authorizations/sap-success-factors.md)
+- [SFTP Store](authorizations/sftp-store.md)
 - **Connections**
 - [SAP SuccessFactors](connections/sap-success-factors.md)
 - **Webhooks**
