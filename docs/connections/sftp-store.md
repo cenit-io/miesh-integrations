@@ -16,6 +16,8 @@
     >- **Name**: connection
     >- **Url**: sftp://cenitio.files.com
     >- **Authorization**: SFTPStore | auth-basic
+    
+    > **Note**: For the name of the connection, the following format is recommended **connection\-\{*particular identifier*\}** or **connection** for the default connection. 
 
 ## Snapshots of the process
 

@@ -18,6 +18,8 @@
     >- **Url**: https://api2.successfactors.eu/odata/v2/
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Parameters**: $format = JSON
+    
+    > **Note**: For the name of the connection, the following format is recommended **connection\-\{*particular identifier*\}** or **connection** for the default connection. 
 
 ## Snapshots of the process
 

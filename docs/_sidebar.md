@@ -10,7 +10,7 @@
 - [SFTP-Store Upload file](webhooks/sftp-store-upload-file.md)
 - **Data-Types**
 - [SAP-SF PerPersonal](data-types/sap-success-factors-perpersonal.md)
-- **Translators (parsers)**
+- **Translators**
 - [SAP-SF Parser PerPersonal](translators/sap-success-factors-parser-perpersonal.md)
 - [SFTP-Store Template upload file](translators/sftp-store-upload-file.md)
 - **Flows**
