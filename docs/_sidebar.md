@@ -10,9 +10,10 @@
 - **Translators (parsers)**
 - [SAP SuccessFactors](translators/sap-success-factors.md)
 - **Flows**
-- [SAP SuccessFactors](flows/sap-success-factors.md)
+- [SAP-SF Import PerPersonal](flows/sap-success-factors.md)
 - **Algorithms**
-- [Algorithms](algorithms/miesh-algorithms.md)
+- [Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
+- [Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
 - [Encrypt](algorithms/miesh-encrypt.md)
 - [Decrypt](algorithms/miesh-decrypt.md)
 - [Test Encrypt and Decrypt](algorithms/miesh-encrypt-decrypt.md)

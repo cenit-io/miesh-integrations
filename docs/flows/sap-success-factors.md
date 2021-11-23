@@ -1,10 +1,12 @@
-# Create SAP-SuccessFactors flows in CenitIO
+# Create SAP-SuccessFactors flow to import PerPersonal to CenitIO
 
 ## Requirements
 
 * SAP-SuccessFactors [authorization](../authorizations/sap-success-factors.md)
 * SAP-SuccessFactors [webhook](../webhooks/sap-success-factors.md)
 * SAP-SuccessFactors [translator](../translators/sap-success-factors.md)
+* SAP-SuccessFactors [before-submit](../algorithms/sapsf-setup_import_before_submit.md)
+* SAP-SuccessFactors [after-callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
@@ -19,6 +21,8 @@
     >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal
     >- **Webhook**: SAPSuccessFactors | get_personal_information
     >- **Authorization**: SAPSuccessFactors | auth-basic
+    >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
+    >- **After process callbacks**: SAPSuccessFactors | setup_import_next_page_after_callback
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true
@@ -36,7 +40,6 @@
 
    ![](../assets/snapshots/sap-sf-flow/snapshots-003.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-005.png)
    
 ### Test flow (process)
 

@@ -33,9 +33,9 @@ decipher.update(data) + decipher.final
 
 ### Goto algorithm module
 
-   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-001.png)
+   ![](../assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-002.png)
+   ![](../assets/snapshots/common-algs/snapshots-002.png)
    ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-004.png)

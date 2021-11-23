@@ -41,6 +41,9 @@ items.each do |item|
 
   target_data_type.create_from_json!(target, primary_field: [:personIdExternal])
 end
+
+# Preparing the request of the next page.
+task.state[:next_page] = data[:d][:__next]
 ```
 
 ## Snapshots of the process
