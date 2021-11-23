@@ -19,7 +19,7 @@
     >- **MIME type**: text/csv
     >- **File extension**: csv
     >- **Bulk source**: true
-    >- **Code**: the code snippet of template in Ruby language
+    >- **Code**: the code snippet of template in Ruby language to prepare raw o encrypt file.
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
 
