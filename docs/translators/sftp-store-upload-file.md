@@ -4,6 +4,7 @@
 
 * SAP-SuccessFactors [data-type](../data-types/sap-success-factors-perpersonal.md)
 * Format and structure of the file to upload.
+* Algorithm to encrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](../algorithms/miesh-encrypt.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating translator of template type
@@ -22,7 +23,7 @@
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
 
-## Code snippet
+## Code snippet to upload raw file
 
 ```Ruby
 body = ''
@@ -38,13 +39,33 @@ template_parameters['filename'] = "perpersonal-#{DateTime.now.iso8601}.csv"
 body
 ```
 
+## Code snippet to upload encrypted file
+
+```Ruby
+body = ''
+
+sources.each do |item| 
+  body << item.personIdExternal << ','
+  body << item.firstName << ',' 
+  body << item.lastName << "\n"
+end  
+
+template_parameters['filename'] = "perpersonal-#{DateTime.now.iso8601}-encrypt.csv"
+
+encrypt = Cenit.namespace(:Miesh).algorithm(:encrypt)
+key = OpenSSL::Digest('SHA256').digest('mieah-passwd')
+iv = 'a2xhcgAAAAAAAAAA'
+
+encrypt.run([key, iv, body])
+```
+
 ## Snapshots of the process
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-002.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
    
