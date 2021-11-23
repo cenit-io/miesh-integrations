@@ -3,6 +3,7 @@
 ## Requirements
 
 * Identify the input data, the purpose and the output data.
+* Review Ruby OpenSSL::Cipher documentation.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://ruby-doc.org/stdlib-2.4.0/libdoc/openssl/rdoc/OpenSSL/Cipher.html)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating the algorithm
