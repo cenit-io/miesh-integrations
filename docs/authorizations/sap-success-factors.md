@@ -16,6 +16,8 @@
     >- **Name**: auth-basic
     >- **Username**: your-user-name@your-comapany-id
     >- **Password**: your-password
+    
+    > **Note**: For the name of the authorization, the following format is recommended **auth\-\{*type authorization*\}**
 
 ## Snapshots of the process
 
