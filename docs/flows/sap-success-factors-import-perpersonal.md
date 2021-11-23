@@ -3,8 +3,8 @@
 ## Requirements
 
 * SAP-SuccessFactors [authorization](../authorizations/sap-success-factors.md)
-* SAP-SuccessFactors [webhook](../webhooks/sap-success-factors.md)
-* SAP-SuccessFactors [translator](../translators/sap-success-factors.md)
+* SAP-SuccessFactors [webhook](../webhooks/sap-success-factors-get-perpersonal.md)
+* SAP-SuccessFactors [translator](../translators/sap-success-factors-parser-perpersonal.md)
 * SAP-SuccessFactors [before-submit](../algorithms/sapsf-setup_import_before_submit.md)
 * SAP-SuccessFactors [after-callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)

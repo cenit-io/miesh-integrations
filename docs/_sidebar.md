@@ -1,17 +1,21 @@
 - [Overview](overview.md)
 - **Authorizations**
 - [SAP SuccessFactors](authorizations/sap-success-factors.md)
-- [SFTP Store](authorizations/sftp-store.md)
+- [SFTP-Store](authorizations/sftp-store.md)
 - **Connections**
 - [SAP SuccessFactors](connections/sap-success-factors.md)
+- [SFTP-Store](connections/sftp-store.md)
 - **Webhooks**
-- [SAP SuccessFactors](webhooks/sap-success-factors.md)
+- [SAP-SF Get PerPersonal](webhooks/sap-success-factors-get-perpersonal.md)
+- [SFTP-Store Upload file](webhooks/sftp-store-upload-file.md)
 - **Data-Types**
-- [SAP SuccessFactors](data-types/sap-success-factors.md)
+- [SAP-SF PerPersonal](data-types/sap-success-factors-perpersonal.md)
 - **Translators (parsers)**
-- [SAP SuccessFactors](translators/sap-success-factors.md)
+- [SAP-SF Parser PerPersonal](translators/sap-success-factors-parser-perpersonal.md)
+- [SFTP-Store Template upload file](translators/sftp-store-upload-file.md)
 - **Flows**
-- [SAP-SF Import PerPersonal](flows/sap-success-factors.md)
+- [SAP-SF Import PerPersonal](flows/sap-success-factors-import-perpersonal.md)
+- [SFTP-Store Export PerPersonal](flows/sftp-store-export-perpersonal.md)
 - **Algorithms**
 - [Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
