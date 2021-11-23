@@ -18,6 +18,8 @@
     >- **Path**: PerPersonal
     >- **Method**: get
     >- **Description**: Query Personal Information
+    >- **Parameters**: customPageSize = {{limit}}, $skiptoken = {{skiptoken}}
+    >- **Template Parameters**: limit = 200, skiptoken
 
 ## Snapshots of the process
 
@@ -28,6 +30,8 @@
 ### Add new webhook
 
    ![](../assets/snapshots/sap-sf-wh/snapshots-002.png)
+   ![](../assets/snapshots/sap-sf-wh/snapshots-002a.png)
+   ![](../assets/snapshots/sap-sf-wh/snapshots-002b.png)
    ![](../assets/snapshots/sap-sf-wh/snapshots-003.png)
    
 ### Test webhook (submit)
