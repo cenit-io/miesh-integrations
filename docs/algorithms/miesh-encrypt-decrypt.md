@@ -19,6 +19,8 @@
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language to test encrypt and decrypt a data buffer.
 
+    > **Note**: The algorithms that are not specific to some integration, it is recommended to define them under a common namespace for all integrations.
+
 ## Code snippet
 
 ```Ruby

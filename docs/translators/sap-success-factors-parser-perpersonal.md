@@ -18,7 +18,7 @@
     >- **Target data type**: SAPSuccessFactors | PerPersonal
     >- **Code**: the code snippet of parser in Ruby language
 
-    > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
+    > **Note**: For the name of the parser type translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
 
 ## Code snippet
 
