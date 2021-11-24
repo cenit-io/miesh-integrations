@@ -63,9 +63,9 @@ encrypt.run([key, iv, body])
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-002.png)
    
