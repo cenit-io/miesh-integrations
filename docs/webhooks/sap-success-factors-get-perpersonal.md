@@ -21,6 +21,8 @@
     >- **Parameters**: customPageSize = {{limit}}, $skiptoken = {{skiptoken}}
     >- **Template Parameters**: limit = 200, skiptoken
 
+    > **Note**: For the name of the webhook, the following format is recommended **{*webhook_action*}\_{*webhook_noun*}**
+
 ## Snapshots of the process
 
 ### Goto webhook module
