@@ -56,4 +56,3 @@
 ### View records
 
    ![](../assets/snapshots/sap-sf-dt/snapshots-005.png)
-   ![](../assets/snapshots/sap-sf-dt/snapshots-006.png)
