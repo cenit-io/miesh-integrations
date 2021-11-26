@@ -23,18 +23,11 @@
 {
   "type": "object",
   "properties": {
-    "personIdExternal": {
+    "filename": {
       "type": "string"
     },
-    "firstName": {
+    "content": {
       "type": "string"
-    },
-    "lastName": {
-      "type": "string"
-    },
-    "rawData": {
-      "type": "object",
-      "visible": false
     }
   }
 }
