@@ -19,6 +19,8 @@
     >- **Description**: Upload file to SFTP-Store
     >- **Template Parameters**: filename
 
+    > **Note**: For the name of the webhook, the following format is recommended **{*webhook_action*}\_{*webhook_noun*}**
+
 ## Snapshots of the process
 
 ### Goto webhook module

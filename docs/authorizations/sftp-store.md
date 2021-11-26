@@ -13,7 +13,7 @@
 
     >- **Namespace**: SFTPStore
     >- **Name**: auth-basic
-    >- **Username**: your-user-name@your-comapany-id
+    >- **Username**: your-user
     >- **Password**: your-password
     
     > **Note**: For the name of the authorization, the following format is recommended **auth\-\{*type authorization*\}**

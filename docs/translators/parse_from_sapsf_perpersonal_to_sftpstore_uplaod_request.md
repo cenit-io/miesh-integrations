@@ -21,7 +21,7 @@
     >- **Bulk source**: true
     >- **Code**: the code snippet of template in Ruby language to prepare raw o encrypt file.
 
-    > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
+    > **Note**: For the name of the template type translator, the following format is recommended **parse_from\_\{*origin*\}\_\{<em>resource<Sub>origin</Sub></em>\}\_to\_\{*destination*\}\_\{<em>resource<Sub>destination</Sub></em>\}**
 
 ## Code snippet to upload raw file
 

@@ -27,7 +27,7 @@
     >- **Notify request**: true
     >- **Notify response**: true
 
-    > **Note**: For the name of the flow, the following format is recommended **do_\{*action*\}\_\{*resource*\}**
+    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_\{*resource*\}**
 
 ## Snapshots of the process
 

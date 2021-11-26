@@ -18,6 +18,8 @@
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language.
 
+    > **Note**: For the name of the algorithms before_submit, the following format is recommended **setup_{*flow_type*}_{*resource*}_before_submit** or **setup_{*flow_type*}_before_submit** when the same algorithm can be applied in several flows of the same type but over different resources.
+
 ## Code snippet
 
 Set the skiptoken template-parameters with the reference value to the next page, obtained in the [after-callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
