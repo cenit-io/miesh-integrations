@@ -9,10 +9,13 @@
 - [SAP-SF Get PerPersonal](webhooks/sap-success-factors-get-perpersonal.md)
 - [SFTP-Store Upload file](webhooks/sftp-store-upload-file.md)
 - **Data-Types**
-- [SAP-SF PerPersonal](data-types/sap-success-factors-perpersonal.md)
+- [SAP-SF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
+- [SFTP-Store PerPersonal](data-types/SFTPStore-PerPersonal.md)
 - **Translators**
-- [SAP-SF Parser PerPersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-- [SFTP-Store Template upload file](translators/sftp-store-upload-file.md)
+- [SAP-SF parser response](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
+- [SAP-SF template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
+- [SFTP-Store converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+- [SFTP-Store template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
 - **Flows**
 - [SAP-SF Import PerPersonal](flows/sap-success-factors-import-perpersonal.md)
 - [SFTP-Store Export PerPersonal](flows/sftp-store-export-perpersonal.md)

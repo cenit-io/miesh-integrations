@@ -1,4 +1,4 @@
-# Create SAP-SuccessFactors data-types in CenitIO
+# Create SAPSuccessFactors PerPersonal data-type
 
 ## Requirements
 
@@ -45,9 +45,9 @@
 
 ### Goto data-type module
 
-   ![](../assets/snapshots/sap-sf-dt/snapshots-001.png)
-   ![](../assets/snapshots/sap-sf-dt/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-dt/snapshots-003.png)
+   ![](../assets/snapshots/common-dt/snapshots-001.png)
+   ![](../assets/snapshots/common-dt/snapshots-002.png)
+   ![](../assets/snapshots/common-dt/snapshots-003.png)
     
 ### Add new data-type
 
