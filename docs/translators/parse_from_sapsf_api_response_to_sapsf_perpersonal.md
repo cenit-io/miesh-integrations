@@ -1,4 +1,4 @@
-# Create SAP-SuccessFactors translators in CenitIO
+# Create parse from SAP-SuccessFactors api response
 
 ## Requirements
 
@@ -7,18 +7,18 @@
 * The resource schema in the API-Service response.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
-## Creating translator of parser type
+## Creating parser
 
 * Goto [translators](https://cenit.io/parser_transformation) module.
 * Select the action [add new](https://cenit.io/parser_transformation/new) to create the new translator of parser type.
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: parse_from_sapsf_to_cenit_perpersonal
+    >- **Name**: parse_from_sapsf_api_response_to_sapsf_perpersonal
     >- **Target data type**: SAPSuccessFactors | PerPersonal
     >- **Code**: the code snippet of parser in Ruby language
 
-    > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}\_\{*resource*\}**
+    > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}**
 
 ## Code snippet
 

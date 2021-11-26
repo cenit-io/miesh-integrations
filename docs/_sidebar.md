@@ -11,7 +11,7 @@
 - **Data-Types**
 - [SAP-SF PerPersonal](data-types/sap-success-factors-perpersonal.md)
 - **Translators**
-- [SAP-SF Parser PerPersonal](translators/sap-success-factors-parser-perpersonal.md)
+- [SAP-SF Parser PerPersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 - [SFTP-Store Template upload file](translators/sftp-store-upload-file.md)
 - **Flows**
 - [SAP-SF Import PerPersonal](flows/sap-success-factors-import-perpersonal.md)
