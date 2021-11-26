@@ -15,7 +15,6 @@
 - [SAP-SF parser response](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 - [SAP-SF template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
 - [SFTP-Store converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
-- [SFTP-Store template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
 - **Flows**
 - [SAP-SF Import PerPersonal](flows/sap-success-factors-import-perpersonal.md)
 - [SFTP-Store Export PerPersonal](flows/sftp-store-export-perpersonal.md)
