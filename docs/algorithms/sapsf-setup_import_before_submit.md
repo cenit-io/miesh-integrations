@@ -24,7 +24,7 @@
 
 Set the skiptoken template-parameters with the reference value to the next page, obtained in the [after-callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
 
-```Ruby
+```ruby
 options[:template_parameters]['skiptoken'] = task.state[:skiptoken]
 ```
 

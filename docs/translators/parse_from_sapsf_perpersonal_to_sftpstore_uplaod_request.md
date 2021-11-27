@@ -23,9 +23,13 @@
 
     > **Note**: For the name of the template type translator, the following format is recommended **parse_from\_\{*origin*\}\_\{<em>resource<Sub>origin</Sub></em>\}\_to\_\{*destination*\}\_\{<em>resource<Sub>destination</Sub></em>\}**
 
-## Code snippet to upload raw file
+## Code snippet to upload file
 
-```Ruby
+<!-- tabs:start -->
+
+#### **Raw file**
+
+```ruby
 body = ''
 
 sources.each do |item| 
@@ -39,9 +43,9 @@ template_parameters['filename'] = "perpersonal-#{DateTime.now.iso8601}.csv"
 body
 ```
 
-## Code snippet to upload encrypted file
+#### **Encrypted file**
 
-```Ruby
+```ruby
 body = ''
 
 sources.each do |item| 
@@ -58,6 +62,8 @@ iv = 'a2xhcgAAAAAAAAAA'
 
 encrypt.run([key, iv, body])
 ```
+
+<!-- tabs:end -->
 
 ## Snapshots of the process
 

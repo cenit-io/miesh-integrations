@@ -22,7 +22,7 @@
 
 ## Code snippet
 
-```Ruby
+```ruby
 data = begin 
   JSON.parse(data, symbolize_names: true)
 rescue

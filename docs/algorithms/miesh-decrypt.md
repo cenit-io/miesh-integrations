@@ -22,7 +22,7 @@
 
 ## Code snippet
 
-```Ruby
+```ruby
 data = Base64::decode64(data)
 decipher = OpenSSL::Cipher.try(:new, 'AES-256-CBC')
 decipher.decrypt

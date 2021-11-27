@@ -22,7 +22,7 @@
 
 ## Code snippet
 
-```Ruby
+```ruby
 content = '';
 
 sources.each do |item|

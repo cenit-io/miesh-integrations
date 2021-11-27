@@ -23,7 +23,7 @@
 
 ## Code snippet
 
-```Ruby
+```ruby
 ns_miesh = Cenit.namespace(:Miesh)
 
 encrypt = ns_miesh.algorithm(:encrypt)

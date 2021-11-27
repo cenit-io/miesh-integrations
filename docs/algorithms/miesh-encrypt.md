@@ -22,7 +22,7 @@
 
 ## Code snippet
 
-```Ruby
+```ruby
 cipher = OpenSSL::Cipher.try(:new, 'AES-256-CBC')
 cipher.encrypt # set cipher to be encryption mode
 cipher.key = key

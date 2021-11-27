@@ -24,7 +24,7 @@
 
 Set the skiptoken task-state with the reference value to the next page, to be used later in the [before-submit](algorithms/sapsf-setup_import_before_submit.md).
 
-```Ruby
+```ruby
 query_params = URI.try(:decode_www_form, task.state[:next_page] || '').to_h
 
 task.state[:skiptoken] = query_params['$skiptoken']

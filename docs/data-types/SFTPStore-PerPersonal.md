@@ -19,7 +19,7 @@
 
 ## Schema snippet
 
-```JSON
+```json
 {
   "type": "object",
   "properties": {
