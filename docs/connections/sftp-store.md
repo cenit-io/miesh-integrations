@@ -1,9 +1,9 @@
-# Create SFTP-Store connections in CenitIO
+# Create SFTPStore connections in CenitIO
 
 ## Requirements
 
-* SFTP-Store [authorization](../authorizations/sftp-store.md)
-* The Base-Url of SFTP-Store.
+* SFTPStore [authorization](../authorizations/sftp-store.md)
+* The Base-Url of SFTPStore.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating connection

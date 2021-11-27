@@ -1,9 +1,9 @@
-# Create SFTP-Store webhooks in CenitIO
+# Create SFTPStore webhooks in CenitIO
 
 ## Requirements
 
-* SFTP-Store [connection](../connections/sftp-store.md)
-* The resource-path, http-method and parameters of the SFTP-Store.
+* SFTPStore [connection](../connections/sftp-store.md)
+* The resource-path, http-method and parameters of the SFTPStore.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating webhook
@@ -16,7 +16,7 @@
     >- **Name**: upload_file
     >- **Path**: miesh/{{filename}}
     >- **Method**: put
-    >- **Description**: Upload file to SFTP-Store
+    >- **Description**: Upload file to SFTPStore
     >- **Template Parameters**: filename
 
     > **Note**: For the name of the webhook, the following format is recommended **{*webhook_action*}\_{*webhook_noun*}**

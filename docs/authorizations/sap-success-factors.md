@@ -1,9 +1,9 @@
-# Create SAP-SuccessFactors authorizations in CenitIO
+# Create SAPSuccessFactors authorizations in CenitIO
 
 ## Requirements
 
-* SAP-SuccessFactors user credentials. (_user-name, company-id and password_)
-* Review the SAP-SuccessFactors API specification.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://help.sap.com/viewer/d599f15995d348a1b45ba5603e2aba9b/2111/en-US/5c8bca0af1654b05a83193b2922dcee2.html)
+* SAPSuccessFactors user credentials. (_user-name, company-id and password_)
+* Review the SAPSuccessFactors API specification.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://help.sap.com/viewer/d599f15995d348a1b45ba5603e2aba9b/2111/en-US/5c8bca0af1654b05a83193b2922dcee2.html)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating Basic Authorization

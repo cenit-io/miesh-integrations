@@ -1,12 +1,12 @@
-# Create SAP-SuccessFactors flow to import PerPersonal to CenitIO
+# Create flow to import PerPersonal from SAPSuccessFactors
 
 ## Requirements
 
-* SAP-SuccessFactors [authorization](../authorizations/sap-success-factors.md)
-* SAP-SuccessFactors [webhook](../webhooks/sap-success-factors-get-perpersonal.md)
-* SAP-SuccessFactors [translator](../translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-* SAP-SuccessFactors [before-submit](../algorithms/sapsf-setup_import_before_submit.md)
-* SAP-SuccessFactors [after-callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
+* SAPSuccessFactors [authorization](../authorizations/sap-success-factors.md)
+* SAPSuccessFactors [webhook](../webhooks/sap-success-factors-get-perpersonal.md)
+* SAPSuccessFactors [translator](../translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
+* SAPSuccessFactors [before-submit](../algorithms/sapsf-setup_import_before_submit.md)
+* SAPSuccessFactors [after-callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
@@ -16,7 +16,7 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: do_import_perpersonal
+    >- **Name**: do_import_from_sapsf_perpersonal
     >- **Description**: Imports the records of the PerPersonal entity from SAP SuccessFactors and stores them transformed in cenit.
     >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal
     >- **Webhook**: SAPSuccessFactors | get_personal_information

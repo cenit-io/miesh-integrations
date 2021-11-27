@@ -1,8 +1,8 @@
-# Create SFTP-Store authorizations in CenitIO
+# Create SFTPStore authorizations in CenitIO
 
 ## Requirements
 
-* SFTP-Store user credentials. (_username_ and _password_)
+* SFTPStore user credentials. (_username_ and _password_)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating Basic Authorization

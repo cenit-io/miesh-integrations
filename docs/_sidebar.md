@@ -1,23 +1,24 @@
 - [Overview](overview.md)
 - **Authorizations**
 - [SAP SuccessFactors](authorizations/sap-success-factors.md)
-- [SFTP-Store](authorizations/sftp-store.md)
+- [SFTPStore](authorizations/sftp-store.md)
 - **Connections**
 - [SAP SuccessFactors](connections/sap-success-factors.md)
-- [SFTP-Store](connections/sftp-store.md)
+- [SFTPStore](connections/sftp-store.md)
 - **Webhooks**
 - [SAP-SF Get PerPersonal](webhooks/sap-success-factors-get-perpersonal.md)
-- [SFTP-Store Upload file](webhooks/sftp-store-upload-file.md)
+- [SFTPStore Upload file](webhooks/sftp-store-upload-file.md)
 - **Data-Types**
 - [SAP-SF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
-- [SFTP-Store PerPersonal](data-types/SFTPStore-PerPersonal.md)
+- [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
 - **Translators**
 - [SAP-SF parser response](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 - [SAP-SF template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
-- [SFTP-Store converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+- [SFTPStore converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
 - **Flows**
-- [SAP-SF Import PerPersonal](flows/sap-success-factors-import-perpersonal.md)
-- [SFTP-Store Export PerPersonal](flows/sftp-store-export-perpersonal.md)
+- [SAP-SF Import PerPersonal](flows/do_import_from_sapsf_perpersonal.md)
+- [SAP-SF Export PerPersonal](flows/do_export_to_sftpstore_perpersonal.md)
+- [SFTPStore Convert PerPersonal](flows/do_convert_from_sapsf_perpersonal.md)
 - **Algorithms**
 - [Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
