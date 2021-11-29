@@ -25,6 +25,10 @@
 Set the skiptoken template-parameters with the reference value to the next page, obtained in the [after-callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
 
 ```ruby
+# Set the number of items per page.
+options[:template_parameters]['limit'] = 200
+
+# Set the token of the next page to import.
 options[:template_parameters]['skiptoken'] = task.state[:skiptoken]
 ```
 

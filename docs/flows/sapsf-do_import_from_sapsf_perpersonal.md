@@ -25,7 +25,8 @@
     >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal
     >- **Webhook**: SAPSuccessFactors | get_personal_information
     >- **Authorization**: SAPSuccessFactors | auth-basic
-    >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
+    >- **Before submit**: 
+    >   - [SAPSuccessFactors | setup_import_before_submit](../algorithms/sapsf-setup_import_before_submit.md)
     >- **After process callbacks**: 
     >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
     >- **Active**: true
@@ -40,7 +41,8 @@
     >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal
     >- **Webhook**: SAPSuccessFactors | get_personal_information
     >- **Authorization**: SAPSuccessFactors | auth-basic
-    >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
+    >- **Before submit**: 
+    >   - [SAPSuccessFactors | setup_import_before_submit](../algorithms/sapsf-setup_import_before_submit.md)
     >- **After process callbacks**: 
     >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
     >   - [SAPSuccessFactors | convert_import_perpersonal_after_callback](../algorithms/sapsf-convert_import_perpersonal_after_callback.md)
