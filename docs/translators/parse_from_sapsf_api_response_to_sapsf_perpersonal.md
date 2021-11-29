@@ -22,6 +22,10 @@
 
 ## Code snippet
 
+<!-- tabs:start -->
+
+#### **All pages**
+
 ```ruby
 data = begin 
   JSON.parse(data, symbolize_names: true)
@@ -45,6 +49,38 @@ end
 # Preparing the request of the next page.
 task.state[:next_page] = data[:d][:__next]
 ```
+
+#### **With limit pages for test**
+
+```ruby
+data = begin 
+  JSON.parse(data, symbolize_names: true)
+rescue
+  Cenit.fail(data)
+end
+
+items = data[:d][:results]
+
+items.each do |item|
+  target = {
+    personIdExternal: item[:personIdExternal],
+    firstName: item[:firstName],
+    lastName: item[:lastName],
+    data: item
+  }
+
+  target_data_type.create_from_json!(target, primary_field: [:personIdExternal])
+end
+
+# Preparing the request of the next page.
+task.state[:next_page] = data[:d][:__next]
+
+# Limit the total number of items to be imported for test.
+task.state[:total] = task.state[:total].to_i + items.count 
+task.state[:next_page] = nil if task.state[:total] >= 600
+```
+
+<!-- tabs:end -->
 
 ## Snapshots of the process
 
