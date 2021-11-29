@@ -5,6 +5,7 @@
 * SFTPStore [authorization](../authorizations/sftp-store.md)
 * SFTPStore [webhook](../webhooks/sftp-store-upload-file.md)
 * SFTPStore [translator](../translators/parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request.md)
+* SFTPStore [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
