@@ -1,4 +1,4 @@
-# Create flow to export PerPersonal to SFTPStore CSV file
+# Create flow to export PerPersonal records to SFTPStore CSV file
 
 ## Requirements
 
@@ -22,7 +22,7 @@
     >- **Notify request**: true
     >- **Notify response**: true
 
-    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_\{*resource*\}**
+    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_to_\{*destination*\}**
 
 ## Snapshots of the process
 

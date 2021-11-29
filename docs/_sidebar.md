@@ -15,10 +15,12 @@
 - [SAP-SF parser response](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 - [SAP-SF template upload](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
 - [SFTPStore converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+- [SFTPStore template upload](translators/parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request.md)
 - **Flows**
-- [SAP-SF Import PerPersonal](flows/do_import_from_sapsf_perpersonal.md)
-- [SAP-SF Export PerPersonal](flows/do_export_to_sftpstore_perpersonal.md)
-- [SFTPStore Convert PerPersonal](flows/do_convert_from_sapsf_perpersonal.md)
+- [SAP-SF Import PerPersonal](flows/sapsf-do_import_from_sapsf_perpersonal.md)
+- [SAP-SF Export PerPersonal](flows/sapsf-do_export_to_sftpstore_perpersonal.md)
+- [SFTPStore Convert PerPersonal](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
+- [SFTPStore Export PerPersonal](flows/sftpstore-do_export_to_sftpstore_perpersonal.md)
 - **Algorithms**
 - [Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
