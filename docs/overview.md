@@ -49,8 +49,8 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 
 1. Create the [data-type](data-types/SFTPStore-PerPersonal.md)
 2. Create the converter [translator](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
-2. Create the after create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
-3. Create the [flow](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
+3. Create the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
+4. Create the [flow](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
 
 ## Export consolidated PerPersonal record to SFTPStore
 

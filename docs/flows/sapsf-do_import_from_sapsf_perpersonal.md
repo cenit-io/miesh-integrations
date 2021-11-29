@@ -17,7 +17,7 @@
 
 <!-- tabs:start -->
 
-#### **Simple**
+#### **Scenario 01: Simple**
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_import_from_sapsf_perpersonal
@@ -32,7 +32,7 @@
     >- **Notify request**: true
     >- **Notify response**: true
 
-#### **Connected with convert flow**
+#### **Scenario 02: Connected with convert flow**
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_import_from_sapsf_perpersonal
