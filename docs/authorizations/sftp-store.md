@@ -1,4 +1,4 @@
-# Create SFTPStore authorizations in CenitIO
+# Create SFTPStore authorizations
 
 ## Requirements
 

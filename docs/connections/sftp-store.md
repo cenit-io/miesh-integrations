@@ -1,4 +1,4 @@
-# Create SFTPStore connections in CenitIO
+# Create SFTPStore connections
 
 ## Requirements
 

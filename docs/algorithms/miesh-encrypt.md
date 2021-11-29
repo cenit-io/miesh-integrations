@@ -1,4 +1,4 @@
-# Create encrypt algorithm in CenitIO
+# Create encrypt algorithm
 
 ## Requirements
 

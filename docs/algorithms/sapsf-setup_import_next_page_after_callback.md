@@ -1,4 +1,4 @@
-# Create setup_import_next_page_after_callback algorithm in CenitIO
+# Create setup_import_next_page_after_callback algorithm
 
 ## Requirements
 

@@ -1,4 +1,4 @@
-# Create test encrypt and decrypt algorithm in CenitIO
+# Create test encrypt and decrypt algorithm
 
 ## Requirements
 

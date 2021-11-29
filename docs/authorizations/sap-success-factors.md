@@ -1,4 +1,4 @@
-# Create SAPSuccessFactors authorizations in CenitIO
+# Create SAPSuccessFactors authorizations
 
 ## Requirements
 

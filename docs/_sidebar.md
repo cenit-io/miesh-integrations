@@ -26,6 +26,7 @@
 - **Algorithms**
 - [Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
+- [Convert import after callback](algorithms/sapsf-convert_import_perpersonal_after_callback.md)
 - [Encrypt](algorithms/miesh-encrypt.md)
 - [Decrypt](algorithms/miesh-decrypt.md)
 - [Test Encrypt and Decrypt](algorithms/miesh-encrypt-decrypt.md)

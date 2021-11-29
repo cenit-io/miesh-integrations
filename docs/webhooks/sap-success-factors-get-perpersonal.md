@@ -1,4 +1,4 @@
-# Create SAPSuccessFactors webhooks in CenitIO
+# Create SAPSuccessFactors webhooks
 
 ## Requirements
 

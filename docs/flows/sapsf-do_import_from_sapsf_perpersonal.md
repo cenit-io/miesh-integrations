@@ -27,7 +27,7 @@
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
     >- **After process callbacks**: 
-    >   - SAPSuccessFactors | setup_import_next_page_after_callback
+    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true
@@ -42,8 +42,8 @@
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
     >- **After process callbacks**: 
-    >   - SAPSuccessFactors | setup_import_next_page_after_callback
-    >   - SAPSuccessFactors | convert_import_perpersonal_after_callback
+    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
+    >   - [SAPSuccessFactors | convert_import_perpersonal_after_callback](../algorithms/sapsf-convert_import_perpersonal_after_callback.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true

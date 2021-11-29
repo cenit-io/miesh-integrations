@@ -1,4 +1,4 @@
-# Create SAPSuccessFactors connections in CenitIO
+# Create SAPSuccessFactors connections
 
 ## Requirements
 

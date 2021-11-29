@@ -1,4 +1,4 @@
-# Create SFTPStore webhooks in CenitIO
+# Create SFTPStore webhooks
 
 ## Requirements
 

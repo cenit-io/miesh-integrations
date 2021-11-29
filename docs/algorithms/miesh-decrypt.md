@@ -1,4 +1,4 @@
-# Create decrypt algorithm in CenitIO
+# Create decrypt algorithm
 
 ## Requirements
 
