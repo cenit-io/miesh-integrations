@@ -45,3 +45,4 @@
 ### Test flow (process)
 
    ![](../assets/snapshots/sftp-store-flow/snapshots-208.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-209.png)
