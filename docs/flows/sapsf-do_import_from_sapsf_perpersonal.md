@@ -15,6 +15,10 @@
 * Select the action [add new](https://cenit.io/flow/new) to create the new flow.
 * Complete the fields of the form with the following information or those corresponding to your business:
 
+<!-- tabs:start -->
+
+#### **Simple**
+
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_import_from_sapsf_perpersonal
     >- **Description**: Imports the records of the PerPersonal entity from SAP SuccessFactors and stores them transformed in cenit.
@@ -22,12 +26,31 @@
     >- **Webhook**: SAPSuccessFactors | get_personal_information
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
-    >- **After process callbacks**: SAPSuccessFactors | setup_import_next_page_after_callback
+    >- **After process callbacks**: 
+    >   - SAPSuccessFactors | setup_import_next_page_after_callback
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true
 
-    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_\{*resource*\}**
+#### **Connected with convert flow**
+
+    >- **Namespace**: SAPSuccessFactors
+    >- **Name**: do_import_from_sapsf_perpersonal
+    >- **Description**: Imports the records of the PerPersonal entity from SAP SuccessFactors and stores them transformed in cenit.
+    >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal
+    >- **Webhook**: SAPSuccessFactors | get_personal_information
+    >- **Authorization**: SAPSuccessFactors | auth-basic
+    >- **Before submit**: SAPSuccessFactors | setup_import_before_submit
+    >- **After process callbacks**: 
+    >   - SAPSuccessFactors | setup_import_next_page_after_callback
+    >   - SAPSuccessFactors | convert_import_perpersonal_after_callback
+    >- **Active**: true
+    >- **Notify request**: true
+    >- **Notify response**: true
+    
+<!-- tabs:end -->
+
+> **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_from\_\{*origin*\}**
 
 ## Snapshots of the process
 
@@ -40,6 +63,7 @@
 
    ![](../assets/snapshots/sap-sf-flow/snapshots-003.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-004.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-011.png)
    
 ### Test flow (process)
 
