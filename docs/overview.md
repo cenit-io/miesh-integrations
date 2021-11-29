@@ -6,6 +6,9 @@
 
 Simple PerPersonal import and export processes with a single data type.
 
+In this scenario, the records are imported into a data-type and then when the export process is executed, it reads the 
+records of the same data-type, prepares and sends the file to the cloud.
+
 ## Import PerPersonal from SAP-SF
 
 1. Create the [authorization](authorizations/sap-success-factors.md) 
