@@ -50,7 +50,7 @@
     
 <!-- tabs:end -->
 
-> **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_from\_\{*origin*\}**
+> **Note**: For the name of the import flow, the following format is recommended **do_import_from\_\{*origin*\}**
 
 ## Snapshots of the process
 

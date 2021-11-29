@@ -17,7 +17,7 @@
     >- **Translator**: SFTPStore | parse_from_sapsf_to_sftpstore_perpersonal
     >- **Active**: true
 
-    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_\{*origin*\}**
+    > ** Note **: For the convert flow name, the following format is recommended ** do_convert_from_\{*origin*\}** when defined under the namespace of the target data-type; and **do_do_convert_to_\{*destination*\}** when defined under the namespace of the source data-type.
 
 ## Snapshots of the process
 

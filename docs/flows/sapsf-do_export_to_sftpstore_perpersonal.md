@@ -22,7 +22,7 @@
     >- **Notify request**: true
     >- **Notify response**: true
 
-    > **Note**: For the name of the flow, the following format is recommended **do_\{*flow_type*\}\_to_\{*destination*\}**
+    > **Note**: For the name of the export flow, the following format is recommended **do_export_to_\{*destination*\}**
 
 ## Snapshots of the process
 

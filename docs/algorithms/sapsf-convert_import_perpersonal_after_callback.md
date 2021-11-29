@@ -18,7 +18,7 @@
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language.
 
-    > **Note**: For the name of the algorithms after_callback, the following format is recommended **{*purpose_action*}\_{*flow_type*}\_{*resource*}_{*purpose_noun*}_after_callback** or **{*purpose_action*}\_{*flow_type*}_{*purpose_noun*}_after_callback** when the same algorithm can be applied in several flows of the same type but over different resources.
+    > **Note**: For the name of the algorithms after_callback, the following format is recommended **{*purpose_action*}\_{*flow_type*}\_{*purpose_noun*}_after_callback**
 
 ## Code snippet
 
