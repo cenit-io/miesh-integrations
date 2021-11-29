@@ -42,10 +42,10 @@
     >- **Webhook**: SAPSuccessFactors | get_personal_information
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Before submit**: 
-    >   - [SAPSuccessFactors | setup_import_before_submit](../algorithms/sapsf-setup_import_before_submit.md)
+    >   - [SAPSuccessFactors | setup_import_before_submit](algorithms/sapsf-setup_import_before_submit.md)
     >- **After process callbacks**: 
-    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
-    >   - [SAPSuccessFactors | convert_import_perpersonal_after_callback](../algorithms/sapsf-convert_import_perpersonal_after_callback.md)
+    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
+    >   - [SAPSuccessFactors | convert_import_perpersonal_after_callback](algorithms/sapsf-convert_import_perpersonal_after_callback.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true
