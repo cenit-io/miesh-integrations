@@ -31,6 +31,8 @@ Simple PerPersonal import and export processes with a single data type.
 Import all PerPersonal records into a data-type, consolidate them into a single record immediately upon completion of the import, 
 and finally export them to a file in the cloud upon completion of the consolidated record.
 
+In this scenario, an after-callback algorithm is used to start the conversion flow and an event after_create to start the export flow.
+
 ## Import PerPersonal from SAP-SF
 
 1. Create the [authorization](authorizations/sap-success-factors.md) 
