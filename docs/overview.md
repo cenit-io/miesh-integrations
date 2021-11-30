@@ -60,7 +60,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 1. Create the [authorization](authorizations/sftp-store.md) 
 2. Create the [connection](connections/sftp-store.md)
 3. Create the [webhook](webhooks/sftp-store-upload-file.md)
-4. Create the template [translator](translators/parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request.md)
+4. Create the template [translator](translators/parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request.md)
 5. Create the [encrypt](algorithms/miesh-encrypt.md) algorithm
 6. Create the [flow](flows/sftpstore-do_export_to_sftpstore_perpersonal.md)
 
