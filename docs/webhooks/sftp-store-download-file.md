@@ -1,9 +1,9 @@
-# Create a webhook to upload a file to an SFTP-Server
+# Create a webhook to download a file from an SFTP-Server
 
 ## Requirements
 
 * SFTPStore [connection](../connections/sftp-store.md)
-* The resource-path, http-method and parameters to upload file to the SFTP-Server..
+* The resource-path, http-method and parameters to download file from the SFTP-Server.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating webhook
@@ -13,10 +13,10 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SFTPStore
-    >- **Name**: upload_file
+    >- **Name**: download_file
     >- **Path**: miesh/{{filename}}
-    >- **Method**: put
-    >- **Description**: Upload file to SFTP-Server
+    >- **Method**: get
+    >- **Description**: Download file from SFTP-Server
     >- **Template Parameters**: filename
 
     > **Note**: For the name of the webhook, the following format is recommended **{*webhook_action*}\_{*webhook_noun*}**
@@ -29,5 +29,6 @@
     
 ### Add new webhook
 
-   ![](../assets/snapshots/sftp-store-wh/snapshots-302.png)
-   ![](../assets/snapshots/sftp-store-wh/snapshots-303.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-003.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-004.png)

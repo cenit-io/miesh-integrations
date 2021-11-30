@@ -8,6 +8,7 @@
 - **Webhooks**
 - [SAP-SF Get PerPersonal](webhooks/sap-success-factors-get-perpersonal.md)
 - [SFTPStore Upload file](webhooks/sftp-store-upload-file.md)
+- [SFTPStore Download file](webhooks/sftp-store-download-file.md)
 - **Data-Types**
 - [SAP-SF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
 - [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
