@@ -1,4 +1,4 @@
-# Create setup_import_next_page_after_callback algorithm
+# Create a callback algorithm to import a new block
 
 ## Requirements
 

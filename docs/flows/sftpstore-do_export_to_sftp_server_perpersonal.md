@@ -15,7 +15,7 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SFTPStore
-    >- **Name**: do_export_to_sftpstore_perpersonal
+    >- **Name**: do_export_to_sftp_server_perpersonal
     >- **Description**: Export the consolidated record of Cenit Personal identity to a CSV file.
     >- **Event**: SFTPStore | throw_after_creating
     >- **Translator**: SFTPStore | parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request

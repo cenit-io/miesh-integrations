@@ -1,9 +1,9 @@
-# Create template-translator for upload PerPersonal api request
+# Create template-translator for upload PerPersonal file to SFTP-Server
 
 ## Requirements
 
 * SAPSuccessFactors [source-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
-* Format and structure of the file to upload.
+* Format and structure of the file to upload to the SFTP-Server.
 * Algorithm to encrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](../algorithms/miesh-encrypt.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
@@ -23,7 +23,7 @@
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}**
 
-## Code snippet to upload file
+## Code snippet to prepare the file for upload
 
 <!-- tabs:start -->
 

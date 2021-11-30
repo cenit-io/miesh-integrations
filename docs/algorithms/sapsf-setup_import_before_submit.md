@@ -1,4 +1,4 @@
-# Create setup_import_before_submit algorithm
+# Create an algorithm to setup the import request before submitting it
 
 ## Requirements
 
