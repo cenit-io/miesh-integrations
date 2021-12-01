@@ -15,9 +15,10 @@
 - **Translators**
 - [SAP-SF parser response](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 - [SAP-SF template upload](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
-- [SFTPStore converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+- [SAP-SF converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
 - [SFTPStore template upload](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 - [SFTPStore parser download](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
+- [SFTPStore converter](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
 - **Observers**
 - [SFTPStore after create PerPersonal](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 - **Flows**
