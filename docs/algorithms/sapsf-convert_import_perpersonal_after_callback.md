@@ -22,7 +22,7 @@
 
 ## Code snippet
 
-Start [conversion flow](../flows/sftpstore-do_convert_from_sapsf_perpersonal.md) when import is finished
+Start [conversion flow](../flows/sftpstore-do_convert_from_sapsf_to_sftpstote_perpersonal.md) when import is finished
 
 ```ruby
 Cenit.namespace(:SFTPStore).flow(:do_convert_from_sapsf_perpersonal).process if task.state[:skiptoken].nil?

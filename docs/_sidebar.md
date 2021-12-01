@@ -24,9 +24,10 @@
 - **Flows**
 - [SAP-SF Import PerPersonal](flows/sapsf-do_import_from_sapsf_perpersonal.md)
 - [SAP-SF Export PerPersonal](flows/sapsf-do_export_to_sftp_server_perpersonal.md)
-- [SFTPStore Convert PerPersonal](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
+- [SAP-SF Convert PerPersonal](flows/sftpstore-do_convert_from_sapsf_to_sftpstote_perpersonal.md)
 - [SFTPStore Export PerPersonal](flows/sftpstore-do_export_to_sftp_server_perpersonal.md)
 - [SFTPStore Import PerPersonal](flows/sftpstore-do_import_from_sftp_server_perpersonal.md)
+- [SFTPStore Convert PerPersonal](flows/sftpstore-do_convert_from_sftpstote_to_sapsf_perpersonal.md)
 - **Algorithms**
 - [SAP-SF Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [SAP-SF Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)

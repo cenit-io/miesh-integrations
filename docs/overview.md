@@ -55,7 +55,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 1. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
 2. Create or use the converter [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 3. Create or use the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
-4. Create or use the [flow](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
+4. Create or use the [flow](flows/sftpstore-do_convert_from_sapsf_to_sftpstote_perpersonal.md)
 
 ### Export consolidated PerPersonal record to SFTPStore
 
@@ -86,9 +86,8 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 ### Convert PerPersonal consolidated record to multiples records
 
 1. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
-2. Create or use the converter [translator](translators/)
-3. Create or use the after-update [data-event](observers/)
-4. Create or use the [flow](flows/)
+2. Create or use the converter [translator](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
+4. Create or use the [flow](flows/sftpstore-do_convert_from_sftpstote_to_sapsf_perpersonal.md)
 
 ### Re-Export PerPersonal records to SFTPStore
 
