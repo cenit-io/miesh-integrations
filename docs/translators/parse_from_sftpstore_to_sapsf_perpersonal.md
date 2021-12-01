@@ -23,7 +23,7 @@
 ## Code snippet
 
 ```ruby
-source.content.split("\n").each do |line|
+source.content.strip.split("\n").each do |line|
   personIdExternal, firstName, lastName = line.split(',')
   target_data = { personIdExternal: personIdExternal, firstName: firstName, lastName: lastName }
   target_data_type.create_from_json!(target_data, primary_field: [:personIdExternal])
