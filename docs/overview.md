@@ -89,11 +89,11 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 2. Create or use the converter [translator](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
 4. Create or use the [flow](flows/sftpstore-do_convert_from_sftpstote_to_sapsf_perpersonal.md)
 
-### Re-Export PerPersonal records to SFTPStore
+### Re-Export PerPersonal records to SFTP-Server
 
-1. Update some records of the SAPSuccessFactors:PerPersonal data-type
-2. Apply the flow to Convert PerPersonal records to a single consolidated record described in *Scenario 02*.
-3. Apply the flow to Export consolidated PerPersonal record to SFTPStore described in *Scenario 02*
+1. Update some records of the SAPSuccessFactors:PerPersonal data-type.
+2. Apply the [flow](flows/sftpstore-do_convert_from_sapsf_to_sftpstote_perpersonal.md) to Convert PerPersonal records to a single consolidated record described in *Scenario 02*.
+3. Apply the [flow](flows/sftpstore-do_export_to_sftp_server_perpersonal.md) to Export consolidated PerPersonal record to SFTPStore described in *Scenario 02*.
 
 <!-- tabs:end -->
 
