@@ -26,9 +26,9 @@ records of the same data-type, prepares and sends the file to the cloud.
 1. Create or use the [authorization](authorizations/sftp-store.md) 
 2. Create or use the [connection](connections/sftp-store.md)
 3. Create or use the [webhook](webhooks/sftp-store-upload-file.md)
-4. Create or use the template [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_uplaod_request.md)
+4. Create or use the template [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
-6. Create or use the [flow](flows/sapsf-do_export_to_sftpstore_perpersonal.md)
+6. Create or use the [flow](flows/sapsf-do_export_to_sftp_server_perpersonal.md)
 
 ## **Scenario 02**
 ## Scenario 02
@@ -53,7 +53,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 ### Convert PerPersonal records to a single consolidated record
 
 1. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
-2. Create or use the converter [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_uplaod_request.md)
+2. Create or use the converter [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 3. Create or use the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 4. Create or use the [flow](flows/sftpstore-do_convert_from_sapsf_perpersonal.md)
 
@@ -62,7 +62,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 1. Create or use the [authorization](authorizations/sftp-store.md) 
 2. Create or use the [connection](connections/sftp-store.md)
 3. Create or use the [webhook](webhooks/sftp-store-upload-file.md)
-4. Create or use the template [translator](translators/parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request.md)
+4. Create or use the template [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
 6. Create or use the [flow](flows/sftpstore-do_export_to_sftp_server_perpersonal.md)
 

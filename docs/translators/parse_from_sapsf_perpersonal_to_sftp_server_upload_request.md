@@ -14,7 +14,7 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: parse_from_sapsf_perpersonal_to_sftpstore_uplaod_request
+    >- **Name**: parse_from_sapsf_perpersonal_to_sftp_server_upload_request
     >- **Source data type**: SAPSuccessFactors | PerPersonal
     >- **MIME type**: text/csv
     >- **File extension**: csv

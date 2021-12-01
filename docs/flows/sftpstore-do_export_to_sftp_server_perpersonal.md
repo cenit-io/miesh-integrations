@@ -4,7 +4,7 @@
 
 * SFTPStore [authorization](../authorizations/sftp-store.md)
 * SFTPStore [webhook](../webhooks/sftp-store-upload-file.md)
-* SFTPStore [translator](../translators/parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request.md)
+* SFTPStore [translator](../translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 * SFTPStore [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
@@ -18,7 +18,7 @@
     >- **Name**: do_export_to_sftp_server_perpersonal
     >- **Description**: Export the consolidated record of Cenit Personal identity to a CSV file.
     >- **Event**: SFTPStore | throw_after_creating
-    >- **Translator**: SFTPStore | parse_from_sftpstore_perpersonal_to_sftpstore_uplaod_request
+    >- **Translator**: SFTPStore | parse_from_sftpstore_perpersonal_to_sftp_server_upload_request
     >- **Source scope**: Event source
     >- **Webhook**: SFTPStore | upload_file
     >- **Active**: true
