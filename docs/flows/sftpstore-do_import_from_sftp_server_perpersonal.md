@@ -2,10 +2,10 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/sftp-store.md)
-* SFTPStore [webhook](../webhooks/sftp-store-download-file.md)
-* SFTPStore [translator](../translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
-* SFTPStore [before-submit](../algorithms/sftpstore-setup_import_before_submit.md)
+* SFTPStore [authorization](authorizations/sftp-store.md)
+* SFTPStore [webhook](webhooks/sftp-store-download-file.md)
+* SFTPStore [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
+* SFTPStore [before-submit](algorithms/sftpstore-setup_import_before_submit.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
@@ -21,7 +21,7 @@
     >- **Webhook**: SFTPStore | download_file
     >- **Authorization**: SFTPStore | auth-basic
     >- **Before submit**: 
-    >   - [SFTPStore | setup_import_before_submit](../algorithms/sftpstore-setup_import_before_submit)
+    >   - [SFTPStore | setup_import_before_submit](algorithms/sftpstore-setup_import_before_submit)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true

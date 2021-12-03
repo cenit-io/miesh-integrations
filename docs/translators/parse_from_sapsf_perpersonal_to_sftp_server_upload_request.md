@@ -2,9 +2,9 @@
 
 ## Requirements
 
-* SAPSuccessFactors [source-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
+* SAPSuccessFactors [source-data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 * Format and structure of the file to upload to the SFTP-Server.
-* Algorithm to encrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](../algorithms/miesh-encrypt.md)
+* Algorithm to encrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](algorithms/miesh-encrypt.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating translator of template type

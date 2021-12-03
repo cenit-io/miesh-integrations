@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [data-type](../data-types/SFTPStore-PerPersonal.md)
+* SFTPStore [data-type](data-types/SFTPStore-PerPersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating data-event

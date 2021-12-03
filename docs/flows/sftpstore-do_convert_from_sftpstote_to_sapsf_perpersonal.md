@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [translator](../translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
+* SFTPStore [translator](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
