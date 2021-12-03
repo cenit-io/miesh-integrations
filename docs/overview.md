@@ -12,9 +12,9 @@ records of the same data-type, prepares and sends the file to the cloud.
 
 ### Import PerPersonal from SAP-SF
 
-1. Create or use the [authorization](authorizations/sap-success-factors.md) 
-2. Create or use the [connection](connections/sap-success-factors.md)
-3. Create or use the [webhook](webhooks/sap-success-factors-get-perpersonal.md)
+1. Create or use the [authorization](authorizations/SAPSuccessFactors-Auth_Basic.md) 
+2. Create or use the [connection](connections/SAPSuccessFactors-Connection.md)
+3. Create or use the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 4. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 6. Create or use the setup algorithm [before submit](algorithms/sapsf-setup_import_before_submit.md)
@@ -23,9 +23,9 @@ records of the same data-type, prepares and sends the file to the cloud.
 
 ### Export PerPersonal records to SFTPStore
 
-1. Create or use the [authorization](authorizations/sftp-store.md) 
-2. Create or use the [connection](connections/sftp-store.md)
-3. Create or use the [webhook](webhooks/sftp-store-upload-file.md)
+1. Create or use the [authorization](authorizations/SFTPStore-Auth_Basic.md) 
+2. Create or use the [connection](connections/SFTPStore-Connection.md)
+3. Create or use the [webhook](webhooks/SFTPStore-upload_file.md)
 4. Create or use the template [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
 6. Create or use the [flow](flows/do_export_from_sapsf_to_sftp_server_perpersonal.md)
@@ -40,9 +40,9 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 
 ### Import PerPersonal from SAP-SF
 
-1. Create or use the [authorization](authorizations/sap-success-factors.md) 
-2. Create or use the [connection](connections/sap-success-factors.md)
-3. Create or use the [webhook](webhooks/sap-success-factors-get-perpersonal.md)
+1. Create or use the [authorization](authorizations/SAPSuccessFactors-Auth_Basic.md) 
+2. Create or use the [connection](connections/SAPSuccessFactors-Connection.md)
+3. Create or use the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 4. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 6. Create or use the setup algorithm [before submit](algorithms/sapsf-setup_import_before_submit.md)
@@ -59,9 +59,9 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 
 ### Export consolidated PerPersonal record to SFTPStore
 
-1. Create or use the [authorization](authorizations/sftp-store.md) 
-2. Create or use the [connection](connections/sftp-store.md)
-3. Create or use the [webhook](webhooks/sftp-store-upload-file.md)
+1. Create or use the [authorization](authorizations/SFTPStore-Auth_Basic.md) 
+2. Create or use the [connection](connections/SFTPStore-Connection.md)
+3. Create or use the [webhook](webhooks/SFTPStore-upload_file.md)
 4. Create or use the template [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
 6. Create or use the [flow](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md)
@@ -75,9 +75,9 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 
 ### Import PerPersonal data from SFTP-Server
 
-1. Create or use the [authorization](authorizations/sftp-store.md) 
-2. Create or use the [connection](connections/sftp-store.md)
-3. Create or use the [webhook](webhooks/sftp-store-download-file.md)
+1. Create or use the [authorization](authorizations/SFTPStore-Auth_Basic.md) 
+2. Create or use the [connection](connections/SFTPStore-Connection.md)
+3. Create or use the [webhook](webhooks/SFTPStore-download_file.md)
 4. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
 6. Create or use the setup algorithm [before submit](algorithms/sftpstore-setup_import_before_submit.md)

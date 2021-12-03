@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* SFTPStore [authorization](authorizations/sftp-store.md)
-* SFTPStore [webhook](webhooks/sftp-store-download-file.md)
+* SFTPStore [authorization](../authorizations/SFTPStore-Auth_Basic.md)
+* SFTPStore [webhook](../webhooks/SFTPStore-download_file.md)
 * SFTPStore [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
 * SFTPStore [before-submit](algorithms/sftpstore-setup_import_before_submit.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
@@ -18,8 +18,8 @@
     >- **Name**: do_import_from_sftp_server_perpersonal
     >- **Description**: Import the file with PerPersonal data from SFTP server
     >- **Translator**: [SFTPStore | parse_from_sftp_server_response_to_sftpstore_perpersonal](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
-    >- **Webhook**: [SFTPStore | download_file](webhooks/sftp-store-download-file.md)
-    >- **Authorization**: [SFTPStore | auth-basic](authorizations/sftp-store.md)
+    >- **Webhook**: [SFTPStore | download_file](../webhooks/SFTPStore-download_file.md)
+    >- **Authorization**: [SFTPStore | auth-basic](../authorizations/SFTPStore-Auth_Basic.md)
     >- **Before submit**: 
     >   - [SFTPStore | setup_import_before_submit](algorithms/sftpstore-setup_import_before_submit)
     >- **Active**: true

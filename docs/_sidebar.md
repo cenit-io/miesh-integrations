@@ -1,14 +1,14 @@
 - [Overview](overview.md)
 - **Authorizations**
-- [SAP SuccessFactors](authorizations/sap-success-factors.md)
-- [SFTPStore](authorizations/sftp-store.md)
+- [SAP SuccessFactors](authorizations/SAPSuccessFactors-Auth_Basic.md)
+- [SFTPStore](authorizations/SFTPStore-Auth_Basic.md)
 - **Connections**
-- [SAP SuccessFactors](connections/sap-success-factors.md)
-- [SFTPStore](connections/sftp-store.md)
+- [SAP SuccessFactors](connections/SAPSuccessFactors-Connection.md)
+- [SFTPStore](connections/SFTPStore-Connection.md)
 - **Webhooks**
-- [SAP-SF Get PerPersonal](webhooks/sap-success-factors-get-perpersonal.md)
-- [SFTPStore Upload file](webhooks/sftp-store-upload-file.md)
-- [SFTPStore Download file](webhooks/sftp-store-download-file.md)
+- [SAP-SF Get PerPersonal](webhooks/SAPSuccessFactors-get_perpersonal.md)
+- [SFTPStore Upload file](webhooks/SFTPStore-upload_file.md)
+- [SFTPStore Download file](webhooks/SFTPStore-download_file.md)
 - **Data-Types**
 - [SAP-SF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
 - [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
