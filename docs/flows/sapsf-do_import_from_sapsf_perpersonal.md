@@ -58,19 +58,19 @@
 
 ### Goto flow module
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-001.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-002.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-001.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-002.png)
     
 ### Add new flow
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-003.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-011.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-003.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-004.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-011.png)
    
 ### Test flow (process)
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-006.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-007.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-008.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-009.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-010.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-006.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-007.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-008.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-009.png)
+   ![](assets/snapshots/sap-sf-flow/snapshots-010.png)

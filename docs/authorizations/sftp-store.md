@@ -22,12 +22,12 @@
 
 ### Goto authorization module
 
-   ![](../assets/snapshots/sftp-store-auth/snapshots-001.png)
-   ![](../assets/snapshots/sftp-store-auth/snapshots-002.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-002.png)
     
 ### Add new authorization
 
-   ![](../assets/snapshots/sftp-store-auth/snapshots-003.png)
-   ![](../assets/snapshots/sftp-store-auth/snapshots-004.png)
-   ![](../assets/snapshots/sftp-store-auth/snapshots-005.png)
-   ![](../assets/snapshots/sftp-store-auth/snapshots-006.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-003.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-004.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-005.png)
+   ![](assets/snapshots/sftp-store-auth/snapshots-006.png)

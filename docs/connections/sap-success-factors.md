@@ -25,13 +25,13 @@
 
 ### Goto connection module
 
-   ![](../assets/snapshots/sap-sf-conn/snapshots-001.png)
-   ![](../assets/snapshots/sap-sf-conn/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-conn/snapshots-003.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-001.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-002.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-003.png)
     
 ### Add new connection
 
-   ![](../assets/snapshots/sap-sf-conn/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-conn/snapshots-005.png)
-   ![](../assets/snapshots/sap-sf-conn/snapshots-006.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-004.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-005.png)
+   ![](assets/snapshots/sap-sf-conn/snapshots-006.png)
    

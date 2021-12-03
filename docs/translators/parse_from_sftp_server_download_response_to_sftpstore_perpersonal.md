@@ -43,9 +43,9 @@ target_data_type.create_from_json!(target_data, primary_field: [:filename])
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-trans/snapshots-001.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-302.png)
+   ![](assets/snapshots/sftp-store-trans/snapshots-302.png)
    

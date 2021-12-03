@@ -86,9 +86,9 @@ task.state[:next_page] = nil if task.state[:total] >= 600
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sap-sf-trans/snapshots-001.png)
+   ![](assets/snapshots/sap-sf-trans/snapshots-001.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sap-sf-trans/snapshots-002.png)
+   ![](assets/snapshots/sap-sf-trans/snapshots-002.png)
    

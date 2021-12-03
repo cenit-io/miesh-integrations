@@ -39,9 +39,9 @@ Base64.encode64(encrypted).gsub(/\n/, '')
 
 ### Goto algorithm module
 
-   ![](../assets/snapshots/common-algs/snapshots-001.png)
+   ![](assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-003.png)
+   ![](assets/snapshots/common-algs/snapshots-002.png)
+   ![](assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-003.png)

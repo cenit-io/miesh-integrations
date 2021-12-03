@@ -25,9 +25,9 @@
 
 ### Goto webhook module
 
-   ![](../assets/snapshots/sftp-store-wh/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-wh/snapshots-001.png)
     
 ### Add new webhook
 
-   ![](../assets/snapshots/sftp-store-wh/snapshots-302.png)
-   ![](../assets/snapshots/sftp-store-wh/snapshots-303.png)
+   ![](assets/snapshots/sftp-store-wh/snapshots-302.png)
+   ![](assets/snapshots/sftp-store-wh/snapshots-303.png)

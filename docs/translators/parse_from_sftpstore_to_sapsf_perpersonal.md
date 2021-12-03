@@ -34,9 +34,9 @@ end
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-trans/snapshots-001.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-303.png)
+   ![](assets/snapshots/sftp-store-trans/snapshots-303.png)
    

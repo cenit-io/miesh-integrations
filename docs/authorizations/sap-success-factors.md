@@ -23,17 +23,17 @@
 
 ### Goto authorization module
 
-   ![](../assets/snapshots/sap-sf-auth/snapshots-001.png)
-   ![](../assets/snapshots/sap-sf-auth/snapshots-002.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-001.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-002.png)
     
 ### Add new authorization
 
-   ![](../assets/snapshots/sap-sf-auth/snapshots-003.png)
-   ![](../assets/snapshots/sap-sf-auth/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-auth/snapshots-005.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-003.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-004.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-005.png)
    
 ### Authorize
    
-   ![](../assets/snapshots/sap-sf-auth/snapshots-006.png)
-   ![](../assets/snapshots/sap-sf-auth/snapshots-007.png)
-   ![](../assets/snapshots/sap-sf-auth/snapshots-008.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-006.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-007.png)
+   ![](assets/snapshots/sap-sf-auth/snapshots-008.png)

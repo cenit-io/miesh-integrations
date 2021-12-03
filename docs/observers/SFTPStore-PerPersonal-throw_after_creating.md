@@ -20,12 +20,12 @@
 
 ### Goto data-type module
 
-   ![](../assets/snapshots/sftp-store-observers/snapshots-001.png)
-   ![](../assets/snapshots/sftp-store-observers/snapshots-002.png)
+   ![](assets/snapshots/sftp-store-observers/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-observers/snapshots-002.png)
     
 ### Add new data-type
 
-   ![](../assets/snapshots/sftp-store-observers/snapshots-003.png)
-   ![](../assets/snapshots/sftp-store-observers/snapshots-004.png)
-   ![](../assets/snapshots/sftp-store-observers/snapshots-005.png)
+   ![](assets/snapshots/sftp-store-observers/snapshots-003.png)
+   ![](assets/snapshots/sftp-store-observers/snapshots-004.png)
+   ![](assets/snapshots/sftp-store-observers/snapshots-005.png)
 

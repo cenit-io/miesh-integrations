@@ -23,12 +23,12 @@
 
 ### Goto connection module
 
-   ![](../assets/snapshots/sftp-store-conn/snapshots-001.png)
-   ![](../assets/snapshots/sftp-store-conn/snapshots-002.png)
-   ![](../assets/snapshots/sftp-store-conn/snapshots-003.png)
+   ![](assets/snapshots/sftp-store-conn/snapshots-001.png)
+   ![](assets/snapshots/sftp-store-conn/snapshots-002.png)
+   ![](assets/snapshots/sftp-store-conn/snapshots-003.png)
     
 ### Add new connection
 
-   ![](../assets/snapshots/sftp-store-conn/snapshots-004.png)
-   ![](../assets/snapshots/sftp-store-conn/snapshots-005.png)
+   ![](assets/snapshots/sftp-store-conn/snapshots-004.png)
+   ![](assets/snapshots/sftp-store-conn/snapshots-005.png)
    

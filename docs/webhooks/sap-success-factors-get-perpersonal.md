@@ -27,22 +27,22 @@
 
 ### Goto webhook module
 
-   ![](../assets/snapshots/sap-sf-wh/snapshots-001.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-001.png)
     
 ### Add new webhook
 
-   ![](../assets/snapshots/sap-sf-wh/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-002a.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-002b.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-003.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-002.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-002a.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-002b.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-003.png)
    
 ### Test webhook (submit)
 
-   ![](../assets/snapshots/sap-sf-wh/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-005.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-006.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-007.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-008.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-009.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-010.png)
-   ![](../assets/snapshots/sap-sf-wh/snapshots-011.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-004.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-005.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-006.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-007.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-008.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-009.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-010.png)
+   ![](assets/snapshots/sap-sf-wh/snapshots-011.png)
