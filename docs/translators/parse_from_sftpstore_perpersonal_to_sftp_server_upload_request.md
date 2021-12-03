@@ -1,4 +1,4 @@
-# Create template-translator for upload PerPersonal api request
+# Create template-translator for upload the consolidated PerPersonal record to SFTP Server file
 
 ## Requirements
 

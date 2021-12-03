@@ -1,4 +1,4 @@
-# Create template-translator for upload PerPersonal file to SFTP-Server
+# Create template-translator for upload the PerPersonal records to SFTP-Server file
 
 ## Requirements
 
