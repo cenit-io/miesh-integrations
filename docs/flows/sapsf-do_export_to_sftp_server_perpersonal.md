@@ -2,9 +2,9 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/sftp-store.md)
-* SFTPStore [webhook](../webhooks/sftp-store-upload-file.md)
-* SFTPStore [translator](../translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
+* SFTPStore [authorization](/authorizations/sftp-store.md)
+* SFTPStore [webhook](/webhooks/sftp-store-upload-file.md)
+* SFTPStore [translator](/translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
