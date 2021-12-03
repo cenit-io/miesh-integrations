@@ -28,8 +28,8 @@
 
 ### Goto flow module
 
-   ![](assets/snapshots/sftp-store-flow/snapshots-001.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-002.png)
+   ![](/assets/snapshots/sftp-store-flow/snapshots-001.png)
+   ![](/assets/snapshots/sftp-store-flow/snapshots-002.png)
     
 ### Add new flow
 
