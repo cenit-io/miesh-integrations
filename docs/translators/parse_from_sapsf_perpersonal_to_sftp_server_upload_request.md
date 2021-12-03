@@ -15,7 +15,7 @@
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: parse_from_sapsf_perpersonal_to_sftp_server_upload_request
-    >- **Source data type**: SAPSuccessFactors | PerPersonal
+    >- **Source data type**: [SAPSuccessFactors | PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
     >- **MIME type**: text/csv
     >- **File extension**: csv
     >- **Bulk source**: true

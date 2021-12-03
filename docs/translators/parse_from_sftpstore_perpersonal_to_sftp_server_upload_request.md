@@ -14,7 +14,7 @@
 
     >- **Namespace**: SFTPStore
     >- **Name**: parse_from_sftpstore_perpersonal_to_sftp_server_upload_request
-    >- **Source data type**: SFTPStore | PerPersonal
+    >- **Source data type**: [SFTPStore | PerPersonal](data-types/SFTPStore-PerPersonal.md)
     >- **MIME type**: text/csv
     >- **File extension**: csv
     >- **Bulk source**: false

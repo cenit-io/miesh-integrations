@@ -14,8 +14,8 @@
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: parse_from_sapsf_to_sftpstore_perpersonal
-    >- **Source data type**: SAPSuccessFactors | PerPersonal
-    >- **Target data type**: SFTPStore | PerPersonal
+    >- **Source data type**: [SAPSuccessFactors | PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
+    >- **Target data type**: [SFTPStore | PerPersonal](data-types/SFTPStore-PerPersonal.md)
     >- **Code**: the code snippet of converter in Ruby language
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}**

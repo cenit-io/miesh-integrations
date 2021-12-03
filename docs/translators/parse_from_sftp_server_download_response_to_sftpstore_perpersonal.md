@@ -15,7 +15,7 @@
 
     >- **Namespace**: SFTPStore
     >- **Name**: parse_from_sftp_server_response_to_sftpstore_perpersonal
-    >- **Target data type**: SFTPStore | PerPersonal
+    >- **Target data type**: [SFTPStore | PerPersonal](data-types/SFTPStore-PerPersonal.md)
     >- **Discard events**: false
     >- **Code**: the code snippet of template in Ruby language for processing the downloaded data.
 

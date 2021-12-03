@@ -15,7 +15,7 @@
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: parse_from_sapsf_api_response_to_sapsf_perpersonal
-    >- **Target data type**: SAPSuccessFactors | PerPersonal
+    >- **Target data type**: [SAPSuccessFactors | PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
     >- **Code**: the code snippet of parser in Ruby language
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}**
