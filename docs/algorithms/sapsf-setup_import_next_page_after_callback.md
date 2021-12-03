@@ -41,4 +41,4 @@ task.run_again unless task.state[:skiptoken].nil?
 ### Add new algorithm
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-setups-algs/snapshots-004.png)
+   ![](../assets/snapshots/sap-sf-algs/snapshots-004.png)

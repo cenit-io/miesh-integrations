@@ -45,3 +45,6 @@
 
    ![](../assets/snapshots/sftp-store-dt/snapshots-004.png)
 
+### View records
+
+   ![](../assets/snapshots/sftp-store-dt/snapshots-005.png)
