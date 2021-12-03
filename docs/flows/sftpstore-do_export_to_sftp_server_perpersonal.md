@@ -5,7 +5,7 @@
 * SFTPStore [authorization](authorizations/sftp-store.md)
 * SFTPStore [webhook](webhooks/sftp-store-upload-file.md)
 * SFTPStore [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
-* SFTPStore [data-event](../observers/SFTPStore-PerPersonal-throw_after_creating.md)
+* SFTPStore [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
@@ -17,10 +17,10 @@
     >- **Namespace**: SFTPStore
     >- **Name**: do_export_to_sftp_server_perpersonal
     >- **Description**: Export the consolidated record of the PerPersonal entity from the SFTPStore to an SFTP Server.
-    >- **Event**: SFTPStore | throw_after_creating
-    >- **Translator**: SFTPStore | parse_from_sftpstore_perpersonal_to_sftp_server_upload_request
+    >- **Event**: [SFTPStore | throw_after_creating](observers/SFTPStore-PerPersonal-throw_after_creating.md)
+    >- **Translator**: [SFTPStore | parse_from_sftpstore_perpersonal_to_sftp_server_upload_request](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
     >- **Source scope**: Event source
-    >- **Webhook**: SFTPStore | upload_file
+    >- **Webhook**: [SFTPStore | upload_file](webhooks/sftp-store-upload-file.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true

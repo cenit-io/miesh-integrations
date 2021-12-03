@@ -17,9 +17,9 @@
     >- **Namespace**: SFTPStore
     >- **Name**: do_import_from_sftp_server_perpersonal
     >- **Description**: Import the file with PerPersonal data from SFTP server
-    >- **Translator**: SFTPStore | parse_from_sftp_server_response_to_sftpstore_perpersonal
-    >- **Webhook**: SFTPStore | download_file
-    >- **Authorization**: SFTPStore | auth-basic
+    >- **Translator**: [SFTPStore | parse_from_sftp_server_response_to_sftpstore_perpersonal](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
+    >- **Webhook**: [SFTPStore | download_file](webhooks/sftp-store-download-file.md)
+    >- **Authorization**: [SFTPStore | auth-basic](authorizations/sftp-store.md)
     >- **Before submit**: 
     >   - [SFTPStore | setup_import_before_submit](algorithms/sftpstore-setup_import_before_submit)
     >- **Active**: true

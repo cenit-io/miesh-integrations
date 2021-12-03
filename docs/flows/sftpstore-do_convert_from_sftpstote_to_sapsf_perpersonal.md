@@ -14,7 +14,7 @@
     >- **Namespace**: SFTPStore
     >- **Name**: do_convert_from_sftpstore_to_sapsf_perpersonal
     >- **Description**: To extract the imported data and store it in separate records in SAPSuccessFactors:PerPersonal data-type.
-    >- **Translator**: SFTPStore | parse_from_sftpstore_to_sapsf_perpersonal
+    >- **Translator**: [SFTPStore | parse_from_sftpstore_to_sapsf_perpersonal](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
     >- **Active**: true
 
     > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**

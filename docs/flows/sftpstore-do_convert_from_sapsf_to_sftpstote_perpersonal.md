@@ -14,7 +14,7 @@
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_convert_from_sapsf_to_sftpstote_perpersonal
     >- **Description**: To convert all SAPSuccessFactors::PerPersonal records to a single record in SFTPStore with the content of a file in CSV format.
-    >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_sftpstore_perpersonal
+    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_to_sftpstore_perpersonal](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
     >- **Active**: true
 
     > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**
