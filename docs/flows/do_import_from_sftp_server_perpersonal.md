@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/SFTPStore-Auth_Basic.md)
+* SFTPStore [authorization](../authorizations/SFTPStore-auth_basic.md)
 * SFTPStore [webhook](../webhooks/SFTPStore-download_file.md)
 * SFTPStore [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
 * SFTPStore [before-submit](algorithms/sftpstore-setup_import_before_submit.md)
@@ -19,7 +19,7 @@
     >- **Description**: Import the file with PerPersonal data from SFTP server
     >- **Translator**: [SFTPStore | parse_from_sftp_server_response_to_sftpstore_perpersonal](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
     >- **Webhook**: [SFTPStore | download_file](../webhooks/SFTPStore-download_file.md)
-    >- **Authorization**: [SFTPStore | auth-basic](../authorizations/SFTPStore-Auth_Basic.md)
+    >- **Authorization**: [SFTPStore | auth-basic](../authorizations/SFTPStore-auth_basic.md)
     >- **Before submit**: 
     >   - [SFTPStore | setup_import_before_submit](algorithms/sftpstore-setup_import_before_submit)
     >- **Active**: true

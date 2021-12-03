@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/SFTPStore-Auth_Basic.md)
+* SFTPStore [authorization](../authorizations/SFTPStore-auth_basic.md)
 * The Base-Url of SFTPStore.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 

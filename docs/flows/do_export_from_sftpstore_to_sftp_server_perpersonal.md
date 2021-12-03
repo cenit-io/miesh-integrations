@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/SFTPStore-Auth_Basic.md)
+* SFTPStore [authorization](../authorizations/SFTPStore-auth_basic.md)
 * SFTPStore [webhook](../webhooks/SFTPStore-upload_file.md)
 * SFTPStore [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 * SFTPStore [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)

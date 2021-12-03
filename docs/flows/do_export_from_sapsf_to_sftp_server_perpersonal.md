@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/SFTPStore-Auth_Basic.md)
+* SFTPStore [authorization](../authorizations/SFTPStore-auth_basic.md)
 * SFTPStore [webhook](../webhooks/SFTPStore-upload_file.md)
 * SAPSuccessFactors [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
