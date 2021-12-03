@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [translator](../translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+* SAPSuccessFactors [translator](../translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
@@ -11,13 +11,13 @@
 * Select the action [add new](https://cenit.io/flow/new) to create the new flow.
 * Complete the fields of the form with the following information or those corresponding to your business:
 
-    >- **Namespace**: SFTPStore
+    >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_convert_from_sapsf_to_sftpstote_perpersonal
     >- **Description**: To convert all SAPSuccessFactors::PerPersonal records to a single record in SFTPStore with the content of a file in CSV format.
-    >- **Translator**: SFTPStore | parse_from_sapsf_to_sftpstore_perpersonal
+    >- **Translator**: SAPSuccessFactors | parse_from_sapsf_to_sftpstore_perpersonal
     >- **Active**: true
 
-    > ** Note **: For the convert flow name, the following format is recommended ** do_convert_from_\{*origin*\}\_\{*destination*\}**
+    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**
 
 ## Snapshots of the process
 

@@ -12,12 +12,12 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SFTPStore
-    >- **Name**: do_convert_from_sftpstote_to_sapsf_perpersonal
+    >- **Name**: do_convert_from_sftpstore_to_sapsf_perpersonal
     >- **Description**: To extract the imported data and store it in separate records in SAPSuccessFactors:PerPersonal data-type.
     >- **Translator**: SFTPStore | parse_from_sftpstore_to_sapsf_perpersonal
     >- **Active**: true
 
-    > ** Note **: For the convert flow name, the following format is recommended ** do_convert_from_\{*origin*\}\_\{*destination*\}**
+    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**
 
 ## Snapshots of the process
 
