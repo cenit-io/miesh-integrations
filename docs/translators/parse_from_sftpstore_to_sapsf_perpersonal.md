@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [source-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
+* SFTPStore [source-data-type](../data-types/SFTPStore-PerPersonal.md)
 * SAPSuccessFactors [target-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 

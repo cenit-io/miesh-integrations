@@ -3,7 +3,7 @@
 ## Requirements
 
 * SAPSuccessFactors [source-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
-* SFTPStore [target-data-type](../data-types/SAPSuccessFactors-PerPersonal.md)
+* SFTPStore [target-data-type](../data-types/SFTPStore-PerPersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating convert-translator
@@ -12,7 +12,7 @@
 * Select the action [add new](https://cenit.io/ruby_converter/new) to create the new translator of convert type.
 * Complete the fields of the form with the following information or those corresponding to your business:
 
-    >- **Namespace**: SFTPStore
+    >- **Namespace**: SAPSuccessFactors
     >- **Name**: parse_from_sapsf_to_sftpstore_perpersonal
     >- **Source data type**: SAPSuccessFactors | PerPersonal
     >- **Target data type**: SFTPStore | PerPersonal
