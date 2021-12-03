@@ -1,4 +1,4 @@
-# Create flow to export PerPersonal records to SFTPStore CSV file
+# Create flow to export PerPersonal records to SFTP Server CSV file
 
 ## Requirements
 
@@ -15,8 +15,8 @@
 
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_export_to_sftp_server_perpersonal
-    >- **Description**: Export the records of the PerPersonal entity from Cenit to CSV file.
-    >- **Translator**: SFTPStore | parse_from_cenit_perpersonal_to_sftp_csv
+    >- **Description**: Export the records of the PerPersonal entity from the SAPSuccessFactors to an SFTP Server.
+    >- **Translator**: SAPSuccessFactors | parse_from_sapsf_perpersonal_to_sftp_server_upload_request
     >- **Webhook**: SFTPStore | upload_file
     >- **Active**: true
     >- **Notify request**: true
