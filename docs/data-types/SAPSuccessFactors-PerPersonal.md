@@ -45,14 +45,14 @@
 
 ### Goto data-type module
 
-   ![](assets/snapshots/common-dt/snapshots-001.png)
-   ![](assets/snapshots/common-dt/snapshots-002.png)
-   ![](assets/snapshots/common-dt/snapshots-003.png)
+   ![](../assets/snapshots/common-dt/snapshots-001.png)
+   ![](../assets/snapshots/common-dt/snapshots-002.png)
+   ![](../assets/snapshots/common-dt/snapshots-003.png)
     
 ### Add new data-type
 
-   ![](assets/snapshots/sap-sf-dt/snapshots-004.png)
+   ![](../assets/snapshots/sap-sf-dt/snapshots-004.png)
    
 ### View records
 
-   ![](assets/snapshots/sap-sf-dt/snapshots-005.png)
+   ![](../assets/snapshots/sap-sf-dt/snapshots-005.png)

@@ -69,9 +69,9 @@ encrypt.run([key, iv, body])
 
 ### Goto translator module
 
-   ![](assets/snapshots/sap-sf-trans/snapshots-001.png)
+   ![](../assets/snapshots/sap-sf-trans/snapshots-001.png)
     
 ### Add new translator
 
-   ![](assets/snapshots/sap-sf-trans/snapshots-003.png)
+   ![](../assets/snapshots/sap-sf-trans/snapshots-003.png)
    

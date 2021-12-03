@@ -36,9 +36,9 @@ options[:template_parameters]['skiptoken'] = task.state[:skiptoken]
 
 ### Goto algorithm module
 
-   ![](assets/snapshots/common-algs/snapshots-001.png)
+   ![](../assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](assets/snapshots/common-algs/snapshots-002.png)
-   ![](assets/snapshots/sap-sf-setups-algs/snapshots-003.png)
+   ![](../assets/snapshots/common-algs/snapshots-002.png)
+   ![](../assets/snapshots/sap-sf-setups-algs/snapshots-003.png)

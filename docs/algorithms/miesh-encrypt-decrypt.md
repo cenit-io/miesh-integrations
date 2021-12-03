@@ -42,15 +42,15 @@ decryptData = decrypt.run([key, iv, encryptData])
 
 ### Goto algorithm module
 
-   ![](assets/snapshots/common-algs/snapshots-001.png)
+   ![](../assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](assets/snapshots/common-algs/snapshots-002.png)
-   ![](assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-005.png)
+   ![](../assets/snapshots/common-algs/snapshots-002.png)
+   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-005.png)
    
 ### Run the algorithm   
    
-   ![](assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-006.png)
-   ![](assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-007.png)
-   ![](assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-008.png)
+   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-006.png)
+   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-007.png)
+   ![](../assets/snapshots/miesh-encrypt-decrypt-algs/snapshots-008.png)

@@ -32,9 +32,9 @@ Cenit.namespace(:SAPSuccessFactors).flow(:do_convert_from_sapsf_to_sftpstore_per
 
 ### Goto algorithm module
 
-   ![](assets/snapshots/common-algs/snapshots-001.png)
+   ![](../assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](assets/snapshots/common-algs/snapshots-002.png)
-   ![](assets/snapshots/sap-sf-setups-algs/snapshots-005.png)
+   ![](../assets/snapshots/common-algs/snapshots-002.png)
+   ![](../assets/snapshots/sap-sf-setups-algs/snapshots-005.png)

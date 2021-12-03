@@ -23,18 +23,18 @@
 
 ### Goto flow module
 
-   ![](assets/snapshots/sftp-store-flow/snapshots-001.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-001.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-002.png)
     
 ### Add new flow
 
-   ![](assets/snapshots/sftp-store-flow/snapshots-403.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-403.png)
    
 ### Test flow (process)
 
-   ![](assets/snapshots/sftp-store-flow/snapshots-404.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-405.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-406.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-407.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-409.png)
-   ![](assets/snapshots/sftp-store-flow/snapshots-410.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-404.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-405.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-406.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-407.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-409.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-410.png)

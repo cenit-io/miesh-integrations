@@ -25,10 +25,10 @@
 
 ### Goto webhook module
 
-   ![](assets/snapshots/sftp-store-wh/snapshots-001.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-001.png)
     
 ### Add new webhook
 
-   ![](assets/snapshots/sftp-store-wh/snapshots-002.png)
-   ![](assets/snapshots/sftp-store-wh/snapshots-003.png)
-   ![](assets/snapshots/sftp-store-wh/snapshots-004.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-003.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-004.png)

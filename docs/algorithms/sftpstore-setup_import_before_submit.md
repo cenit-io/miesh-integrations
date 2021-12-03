@@ -31,9 +31,9 @@ options[:template_parameters]['filename'] = 'perpersonal-2021-11-27T03:08:33+00:
 
 ### Goto algorithm module
 
-   ![](assets/snapshots/common-algs/snapshots-001.png)
+   ![](../assets/snapshots/common-algs/snapshots-001.png)
     
 ### Add new algorithm
 
-   ![](assets/snapshots/common-algs/snapshots-002.png)
-   ![](assets/snapshots/sftp-store-algs/snapshots-003.png)
+   ![](../assets/snapshots/common-algs/snapshots-002.png)
+   ![](../assets/snapshots/sftp-store-algs/snapshots-003.png)
