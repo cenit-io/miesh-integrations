@@ -53,7 +53,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 ### Convert PerPersonal records to a single consolidated record
 
 1. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
-2. Create or use the converter [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
+2. Create or use the converter [translator](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
 3. Create or use the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 4. Create or use the [flow](flows/sftpstore-do_convert_from_sapsf_to_sftpstote_perpersonal.md)
 
