@@ -12,7 +12,7 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: do_convert_from_sapsf_to_sftpstote_perpersonal
+    >- **Name**: do_convert_from_sapsf_to_sftpstore_perpersonal
     >- **Description**: To convert all SAPSuccessFactors::PerPersonal records to a single record in SFTPStore with the content of a file in CSV format.
     >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_to_sftpstore_perpersonal](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
     >- **Active**: true
