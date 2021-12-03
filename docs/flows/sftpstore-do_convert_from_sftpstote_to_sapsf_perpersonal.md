@@ -1,4 +1,4 @@
-# Create a flow to convert PerPersonal single consolidated record to separate records
+# Create a flow to convert PerPersonal consolidated record to separate records
 
 ## Requirements
 
