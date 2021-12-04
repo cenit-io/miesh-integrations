@@ -36,5 +36,5 @@
    ![](../assets/snapshots/sftp-store-flow/snapshots-405.png)
    ![](../assets/snapshots/sftp-store-flow/snapshots-406.png)
    ![](../assets/snapshots/sftp-store-flow/snapshots-407.png)
+   ![](../assets/snapshots/sftp-store-flow/snapshots-408.png)
    ![](../assets/snapshots/sftp-store-flow/snapshots-409.png)
-   ![](../assets/snapshots/sftp-store-flow/snapshots-410.png)
