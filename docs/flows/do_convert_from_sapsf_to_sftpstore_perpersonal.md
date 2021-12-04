@@ -23,16 +23,16 @@
 
 ### Goto flow module
 
-   ![](../assets/snapshots/sftp-store-flow/snapshots-001.png)
-   ![](../assets/snapshots/sftp-store-flow/snapshots-002.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-001.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-002.png)
     
 ### Add new flow
 
-   ![](../assets/snapshots/sftp-store-flow/snapshots-103.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-203.png)
    
 ### Test flow (process)
 
-   ![](../assets/snapshots/sftp-store-flow/snapshots-104.png)
-   ![](../assets/snapshots/sftp-store-flow/snapshots-105.png)
-   ![](../assets/snapshots/sftp-store-flow/snapshots-106.png)
-   ![](../assets/snapshots/sftp-store-flow/snapshots-107.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-204.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-205.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-206.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-207.png)

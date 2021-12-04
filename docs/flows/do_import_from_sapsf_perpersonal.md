@@ -65,7 +65,7 @@
 
    ![](../assets/snapshots/sap-sf-flow/snapshots-003.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-011.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-005.png)
    
 ### Test flow (process)
 
