@@ -1,6 +1,7 @@
-# Create callback algorithm to start convert flow after imported from api SAP-SuccessFactors
+# Create callback algorithm to start convert flow after imported from SFTP Server
 
 ## Requirements
+
 * Identify the input data, the purpose and the output data.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit-io.github.io/docs/#/algorithms?id=algorithm39s-attributes)
 * Identify when the import finishes and the conversion process starts.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
@@ -11,7 +12,7 @@
 * Select the action [add new](https://cenit.io/algorithm/new) to create the new algorithm.
 * Complete the form fields with the information corresponding to the algorithm in question.
 
-    >- **Namespace**: SAPSuccessFactors
+    >- **Namespace**: SFTPStore
     >- **Name**: convert_import_perpersonal_after_callback
     >- **Parameters**: task
     >- **Language**: Ruby
@@ -21,10 +22,11 @@
 
 ## Code snippet
 
-Start [conversion flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md) when import is finished
+Start [conversion flow](flows/do_convert_from_sftpstore_to_sapsf_perpersonal.md) when import is finished
 
 ```ruby
-Cenit.namespace(:SAPSuccessFactors).flow(:do_convert_from_sapsf_to_sftpstore_perpersonal).process if task.state[:skiptoken].nil?
+source_id = task.state[:target_id]
+Cenit.namespace(:SFTPStore).flow(:do_convert_from_sftpstore_to_sapsf_perpersonal).process(object_id: source_id) unless source_id.nil?
 ```
 
 ## Snapshots of the process
@@ -36,4 +38,4 @@ Cenit.namespace(:SAPSuccessFactors).flow(:do_convert_from_sapsf_to_sftpstore_per
 ### Add new algorithm
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-algs/snapshots-005.png)
+   ![](../assets/snapshots/sap-sf-algs/snapshots-00x.png)
