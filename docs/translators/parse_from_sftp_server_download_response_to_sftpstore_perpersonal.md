@@ -36,7 +36,10 @@ end
 
 target_data = { filename:  parameters['filename'], content: decryptData }
 
-target_data_type.create_from_json!(target_data, primary_field: [:filename])
+record = target_data_type.create_from_json!(target_data, primary_field: [:filename])
+
+# Preparing the parameters for the convert flow.
+task.state[:target_id] = record.id
 ```
 
 ## Snapshots of the process
@@ -47,5 +50,5 @@ target_data_type.create_from_json!(target_data, primary_field: [:filename])
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-302.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-302b.png)
    
