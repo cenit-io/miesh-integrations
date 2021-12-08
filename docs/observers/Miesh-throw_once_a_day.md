@@ -23,7 +23,7 @@
     
 ### Add new scheduler
 
-   ![](../assets/snapshots/miesh-schedulers/snapshots-002.png)   
+   ![](../assets/snapshots/miesh-schedulers/snapshots-002.png)
    ![](../assets/snapshots/miesh-schedulers/snapshots-003.png)
    ![](../assets/snapshots/miesh-schedulers/snapshots-004.png)
 
