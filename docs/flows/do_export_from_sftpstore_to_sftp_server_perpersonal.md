@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* SFTPStore [authorization](../authorizations/SFTPStore-auth_basic.md)
-* SFTPStore [webhook](../webhooks/SFTPStore-upload_file.md)
+* SFTPStore [authorization](authorizations/SFTPStore-auth_basic.md)
+* SFTPStore [webhook](webhooks/SFTPStore-upload_file.md)
 * SFTPStore [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
 * SFTPStore [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
@@ -20,7 +20,7 @@
     >- **Event**: [SFTPStore | throw_after_creating](observers/SFTPStore-PerPersonal-throw_after_creating.md)
     >- **Translator**: [SFTPStore | parse_from_sftpstore_perpersonal_to_sftp_server_upload_request](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
     >- **Source scope**: Event source
-    >- **Webhook**: [SFTPStore | upload_file](../webhooks/SFTPStore-upload_file.md)
+    >- **Webhook**: [SFTPStore | upload_file](webhooks/SFTPStore-upload_file.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true

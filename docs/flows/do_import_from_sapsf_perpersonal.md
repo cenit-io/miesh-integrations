@@ -2,8 +2,8 @@
 
 ## Requirements
 
-* SAPSuccessFactors [authorization](../authorizations/SAPSuccessFactors-auth_basic.md)
-* SAPSuccessFactors [webhook](../webhooks/SAPSuccessFactors-get_perpersonal.md)
+* SAPSuccessFactors [authorization](authorizations/SAPSuccessFactors-auth_basic.md)
+* SAPSuccessFactors [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 * SAPSuccessFactors [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 * SAPSuccessFactors [before-submit](algorithms/sapsf-setup_import_before_submit.md)
 * SAPSuccessFactors [after-callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
