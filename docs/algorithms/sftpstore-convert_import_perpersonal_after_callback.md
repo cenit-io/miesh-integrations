@@ -38,4 +38,4 @@ Cenit.namespace(:SFTPStore).flow(:do_convert_from_sftpstore_to_sapsf_perpersonal
 ### Add new algorithm
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-algs/snapshots-00x.png)
+   ![](../assets/snapshots/sftp-store-algs/snapshots-004.png)

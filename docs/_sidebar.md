@@ -34,6 +34,7 @@
 - [SAPSF Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
 - [SAPSF Convert import after callback](algorithms/sapsf-convert_import_perpersonal_after_callback.md)
 - [SFTPStore Setup import before submit](algorithms/sftpstore-setup_import_before_submit.md)
+- [SFTPStore Convert import after callback](algorithms/sftpstore-convert_import_perpersonal_after_callback.md)
 - [Miesh Encrypt](algorithms/miesh-encrypt.md)
 - [Miesh Decrypt](algorithms/miesh-decrypt.md)
 - [Miesh Test Encrypt and Decrypt](algorithms/miesh-encrypt-decrypt.md)

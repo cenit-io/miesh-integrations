@@ -17,7 +17,7 @@
     >- **Translator**: [SFTPStore | parse_from_sftpstore_to_sapsf_perpersonal](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
     >- **Active**: true
 
-    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**
+    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to_\{*destination*\}**
 
 ## Snapshots of the process
 

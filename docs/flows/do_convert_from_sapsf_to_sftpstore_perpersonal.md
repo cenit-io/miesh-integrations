@@ -46,6 +46,7 @@
 ### Add new flow
 
    ![](../assets/snapshots/sap-sf-flow/snapshots-203.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-208.png)
    
 ### Adding a scheduler event to the flow
 
@@ -55,7 +56,6 @@
    ![](../assets/snapshots/sap-sf-flow/snapshots-211.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-212.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-213.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-214.png)
 
 ### Test flow (process)
 
