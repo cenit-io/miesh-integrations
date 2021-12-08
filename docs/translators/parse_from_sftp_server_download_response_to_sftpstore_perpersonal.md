@@ -7,7 +7,7 @@
 * Algorithm to decrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](algorithms/miesh-decrypt.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
-## Creating translator of template type
+## Creating parser-translator
 
 * Goto [translators](https://cenit.io/parser_transformation) module.
 * Select the action [add new](https://cenit.io/parser_transformation/new) to create the new translator of parser type.
@@ -46,8 +46,8 @@ task.state[:target_id] = record.id
 
 ### Goto translator module
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-001.png)
+   ![](../assets/snapshots/common-trans/snapshots-002.png)
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-302.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-002.png)
