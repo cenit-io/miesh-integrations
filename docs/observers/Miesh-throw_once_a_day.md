@@ -2,6 +2,7 @@
 
 ## Requirements
 
+* Identify the start, repeat and end data of execution.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating scheduler event
