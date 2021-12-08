@@ -20,10 +20,10 @@
 ### Goto schedulers module
 
    ![](../assets/snapshots/miesh-schedulers/snapshots-001.png)
-   ![](../assets/snapshots/miesh-schedulers/snapshots-002.png)
     
 ### Add new scheduler
 
+   ![](../assets/snapshots/miesh-schedulers/snapshots-002.png)   
    ![](../assets/snapshots/miesh-schedulers/snapshots-003.png)
    ![](../assets/snapshots/miesh-schedulers/snapshots-004.png)
 
