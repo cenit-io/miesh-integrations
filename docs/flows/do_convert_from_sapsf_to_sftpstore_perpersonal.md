@@ -17,7 +17,7 @@
     >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_to_sftpstore_perpersonal](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
     >- **Active**: true
 
-    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to\_{*destination*\}**
+    > **Note**: For the convert flow name, the following format is recommended **do_convert_from_\{*origin*\}_to_\{*destination*\}**
 
 ## Snapshots of the process
 
@@ -36,3 +36,13 @@
    ![](../assets/snapshots/sap-sf-flow/snapshots-205.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-206.png)
    ![](../assets/snapshots/sap-sf-flow/snapshots-207.png)
+
+### Adding a scheduler event to the flow
+
+   ![](../assets/snapshots/sap-sf-flow/snapshots-208.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-209.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-210.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-211.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-212.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-213.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-214.png)

@@ -12,9 +12,7 @@
 
     >- **Namespace**: Miesh
     >- **Name**: throw_once_a_day
-    >- **Scheduling type**: Start = Repeat= End=
-    >- **Scheduling type**: Start = Repeat= End=
-    >- **Scheduling type**: Start = Repeat= End=
+    >- **Scheduling type**: Start-At = 2021-12-07, Repeat = Select manually, End-At = 2021-12-31
 
 ## Snapshots of the process
 

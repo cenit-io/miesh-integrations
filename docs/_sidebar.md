@@ -21,6 +21,7 @@
 - [SFTPStore Converter](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
 - **Observers**
 - [SFTPStore after create PerPersonal](observers/SFTPStore-PerPersonal-throw_after_creating.md)
+- [Miesh once a day Scheduler](observers/Miesh-throw_once_a_day.md)
 - **Flows**
 - [SAPSF Import PerPersonal](flows/do_import_from_sapsf_perpersonal.md)
 - [SAPSF Export PerPersonal](flows/do_export_from_sapsf_to_sftp_server_perpersonal.md)
