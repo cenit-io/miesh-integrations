@@ -50,4 +50,4 @@ task.state[:target_id] = record.id
     
 ### Add new translator
 
-   ![](../assets/snapshots/sftp-store-trans/snapshots-302b.png)
+   ![](../assets/snapshots/sftp-store-trans/snapshots-302.png)
