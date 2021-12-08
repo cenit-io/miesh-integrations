@@ -6,7 +6,7 @@
 * SFTPStore [target-data-type](data-types/SFTPStore-PerPersonal.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
-## Creating convert-translator
+## Creating translator of converter type
 
 * Goto [translators](https://cenit.io/ruby_converter) module.
 * Select the action [add new](https://cenit.io/ruby_converter/new) to create the new translator of convert type.

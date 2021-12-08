@@ -7,7 +7,7 @@
 * Algorithm to decrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](algorithms/miesh-decrypt.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
-## Creating parser-translator
+## Creating translator of parser type
 
 * Goto [translators](https://cenit.io/parser_transformation) module.
 * Select the action [add new](https://cenit.io/parser_transformation/new) to create the new translator of parser type.
