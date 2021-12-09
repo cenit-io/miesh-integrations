@@ -16,6 +16,7 @@
     >- **Name**: parse_from_sftpstore_to_sapsf_perpersonal
     >- **Source data type**: [SFTPStore | PerPersonal](data-types/SFTPStore-PerPersonal.md)
     >- **Target data type**: [SAPSuccessFactors | PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
+    >- **Source handler**: true
     >- **Code**: the code snippet of converter in Ruby language
 
     > **Note**: For the name of the translator, the following format is recommended **parse_from\_\{*origin*\}\_to\_\{*destination*\}**
@@ -23,10 +24,12 @@
 ## Code snippet
 
 ```ruby
-source.content.strip.split("\n").each do |line|
-  personIdExternal, firstName, lastName = line.split(',')
-  target_data = { personIdExternal: personIdExternal, firstName: firstName, lastName: lastName }
-  target_data_type.create_from_json!(target_data, primary_field: [:personIdExternal])
+sources.each do |record| 
+  record.content.strip.split(/[\n\r]+/).map do |line|
+    personIdExternal, firstName, lastName = line.split(',')
+    target_data = { personIdExternal: personIdExternal, firstName: firstName, lastName: lastName }
+    target_data_type.create_from_json!(target_data, primary_field: [:personIdExternal])
+  end
 end
 ```
 
