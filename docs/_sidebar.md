@@ -10,6 +10,8 @@
 - [SAPSF Get PerPersonal](webhooks/SAPSuccessFactors-get_perpersonal.md)
 - [SFTPStore Upload file](webhooks/SFTPStore-upload_file.md)
 - [SFTPStore Download file](webhooks/SFTPStore-download_file.md)
+- **Connection Roles**
+- [SAPSF sfapi connection role](connection-roles/SAPSuccessFactors-connection_sfapi.md)
 - **Data-Types**
 - [SAPSF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
 - [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
