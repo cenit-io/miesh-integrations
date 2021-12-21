@@ -43,3 +43,4 @@
 - [Miesh Encrypt](algorithms/miesh-encrypt.md)
 - [Miesh Decrypt](algorithms/miesh-decrypt.md)
 - [Miesh Test Encrypt and Decrypt](algorithms/miesh-encrypt-decrypt.md)
+- [SAPSF Get jsessionid](algorithms/sapsf-get-jsessionid.md)
