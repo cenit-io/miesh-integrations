@@ -19,7 +19,7 @@
     >- **Connections**: 
     >   - [SAPSuccessFactors |connection-sfapi](connections/SAPSuccessFactors-connection_sfapi.md)    
 
-    > **Note**: For the name of the connection, the following format is recommended **connection\-role\-{*particular identifier*\}** or **connection-role** for the default connection role. 
+> **Note**: For the name of the connection, the following format is recommended **connection\-role\-{*particular identifier*\}** or **connection-role** for the default connection role. 
 
 ## Snapshots of the process
 
