@@ -8,6 +8,8 @@
 - [SFTPStore Default connection](connections/SFTPStore-connection.md)
 - **Webhooks**
 - [SAPSF Get PerPersonal](webhooks/SAPSuccessFactors-get_perpersonal.md)
+- [SAPSF Login](webhooks/SAPSuccessFactors-login.md)
+- [SAPSF Query](webhooks/SAPSuccessFactors-query.md)
 - [SFTPStore Upload file](webhooks/SFTPStore-upload_file.md)
 - [SFTPStore Download file](webhooks/SFTPStore-download_file.md)
 - **Connection Roles**

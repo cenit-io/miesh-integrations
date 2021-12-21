@@ -15,7 +15,7 @@
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: connection-role-sfapi
     >- **Webhooks**:
-    >   - [SAPSuccessFactors | ](webhooks/)
+    >   - [SAPSuccessFactors | ](webhooks/SAPSuccessFactors-query.md)
     >- **Connections**: 
     >   - [SAPSuccessFactors |connection-sfapi](connections/SAPSuccessFactors-connection_sfapi.md)    
 
