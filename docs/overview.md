@@ -13,7 +13,7 @@ records of the same data-type, prepares and sends the file to the cloud.
 ### Import PerPersonal from SAP-SF
 
 1. Create or use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
-2. Create or use the [connection](connections/SAPSuccessFactors-connection.md)
+2. Create or use the [connection](connections/SAPSuccessFactors-connection_odata.md)
 3. Create or use the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 4. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
@@ -41,7 +41,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 ### Import PerPersonal from SAP-SF
 
 1. Create or use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
-2. Create or use the [connection](connections/SAPSuccessFactors-connection.md)
+2. Create or use the [connection](connections/SAPSuccessFactors-connection_odata.md)
 3. Create or use the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 4. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)

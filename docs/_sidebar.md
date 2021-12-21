@@ -3,7 +3,7 @@
 - [SAPSF Basic auth](authorizations/SAPSuccessFactors-auth_basic.md)
 - [SFTPStore Basic auth](authorizations/SFTPStore-auth_basic.md)
 - **Connections**
-- [SAPSF Default connection](connections/SAPSuccessFactors-connection.md)
+- [SAPSF Default connection](connections/SAPSuccessFactors-connection_odata.md)
 - [SFTPStore Default connection](connections/SFTPStore-connection.md)
 - **Webhooks**
 - [SAPSF Get PerPersonal](webhooks/SAPSuccessFactors-get_perpersonal.md)
