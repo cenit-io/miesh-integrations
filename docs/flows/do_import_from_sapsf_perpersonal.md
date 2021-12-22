@@ -22,9 +22,9 @@
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_import_from_sapsf_perpersonal
     >- **Description**: Imports the records of the PerPersonal entity from SAP SuccessFactors and stores them transformed in cenit.
-    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-    >- **Webhook**: [SAPSuccessFactors | get_personal_information](webhooks/sap-success-factors-get-perpersonal.md)
-    >- **Authorization**: [SAPSuccessFactors | auth-basic](authorizations/sap-success-factors.md)
+    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_perpersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
+    >- **Webhook**: [SAPSuccessFactors | get_personal_information](webhooks/SAPSuccessFactors-get_perpersonal.md)
+    >- **Authorization**: [SAPSuccessFactors | auth-basic](authorizations/SAPSuccessFactors-auth_basic.md)
     >- **Before submit**: 
     >   - [SAPSuccessFactors | setup_import_before_submit](algorithms/sapsf-setup_import_before_submit.md)
     >- **After process callbacks**: 
@@ -38,9 +38,9 @@
     >- **Namespace**: SAPSuccessFactors
     >- **Name**: do_import_from_sapsf_perpersonal
     >- **Description**: Imports the records of the PerPersonal entity from SAP SuccessFactors and stores them transformed in cenit.
-    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_to_cenit_perpersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-    >- **Webhook**: [SAPSuccessFactors | get_personal_information](webhooks/sap-success-factors-get-perpersonal.md)
-    >- **Authorization**: [SAPSuccessFactors | auth-basic](authorizations/sap-success-factors.md)
+    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_perpersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
+    >- **Webhook**: [SAPSuccessFactors | get_personal_information](webhooks/SAPSuccessFactors-get_perpersonal.md)
+    >- **Authorization**: [SAPSuccessFactors | auth-basic](authorizations/SAPSuccessFactors-auth_basic.md)
     >- **Before submit**: 
     >   - [SAPSuccessFactors | setup_import_before_submit](algorithms/sapsf-setup_import_before_submit.md)
     >- **After process callbacks**: 
