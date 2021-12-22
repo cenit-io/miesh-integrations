@@ -37,14 +37,14 @@
     
 ### Add new flow
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-003.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-004.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-005.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-214.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-215.png)
    
 ### Test flow (process)
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-006.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-007.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-008.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-009.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-010.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-217.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-218.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-219.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-220.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-221.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-222.png)

@@ -30,6 +30,7 @@
 - [Miesh once a day Scheduler](observers/Miesh-throw_once_a_day.md)
 - **Flows**
 - [SAPSF Import PerPersonal](flows/do_import_from_sapsf_perpersonal.md)
+- [SAPSF Import CompoundEmployees](flows/do_import_from_sapsf_compoundemployees.md)
 - [SAPSF Export PerPersonal](flows/do_export_from_sapsf_to_sftp_server_perpersonal.md)
 - [SAPSF Convert PerPersonal](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md)
 - [SFTPStore Import PerPersonal](flows/do_import_from_sftp_server_perpersonal.md)

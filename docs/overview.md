@@ -21,7 +21,7 @@ records of the same data-type, prepares and sends the file to the cloud.
 7. Create or use the pagination algorithm [after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
 8. Create or use the [flow](flows/do_import_from_sapsf_perpersonal.md)
 
-### Export PerPersonal records to SFTPStore
+### Export PerPersonal records to SFTP-Server
 
 1. Create or use the [authorization](authorizations/SFTPStore-auth_basic.md) 
 2. Create or use the [connection](connections/SFTPStore-connection.md)
@@ -57,7 +57,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 3. Create or use the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 4. Create or use the [flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md)
 
-### Export consolidated PerPersonal record to SFTPStore
+### Export consolidated PerPersonal record to SFTP-Server
 
 1. Create or use the [authorization](authorizations/SFTPStore-auth_basic.md) 
 2. Create or use the [connection](connections/SFTPStore-connection.md)
@@ -94,6 +94,41 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 1. Update some records of the SAPSuccessFactors:PerPersonal data-type.
 2. Apply the [flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md) to Convert PerPersonal records to a single consolidated record described in *Scenario 02*.
 3. Apply the [flow](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md) to Export consolidated PerPersonal record to SFTPStore described in *Scenario 02*.
+
+## **Scenario 04**
+## Scenario 04
+
+Import 200 CompoundEmployees records into a data-type, consolidate them into a single record immediately upon completion of the import, and finally export them to a file in the cloud upon completion of the consolidated record.
+
+In this scenario, an after-callback algorithm is used to start the conversion flow and an event after_create to start the export flow.
+
+### Import CompoundEmployees data from SAP-SF via API Soap
+
+1. Use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
+2. Create [connection](connections/SAPSuccessFactors-connection_sfapi.md)
+3. Create [webhook (login)](webhooks/SAPSuccessFactors-login.md)
+3. Create [webhook (query)](webhooks/SAPSuccessFactors-query.md)
+4. Use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
+5. Create the algorithm [get_jsessionid](algorithms/sapsf-get-jsessionid.md)
+6. Create the algorithm [before submit](algorithms/sapsf-setup_import_compoundemployees_before_submit.md)
+7. Create the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployees.md)
+8. Create the [flow](flows/do_import_from_sapsf_compoundemployees.md)
+
+### Convert PerPersonal records to a single consolidated record
+
+1. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
+2. Create or use the converter [translator](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
+3. Create or use the after-create [data-event](observers/SFTPStore-PerPersonal-throw_after_creating.md)
+4. Create or use the [flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md)
+
+### Export consolidated PerPersonal record to SFTP-Server
+
+1. Create or use the [authorization](authorizations/SFTPStore-auth_basic.md) 
+2. Create or use the [connection](connections/SFTPStore-connection.md)
+3. Create or use the [webhook](webhooks/SFTPStore-upload_file.md)
+4. Create or use the template [translator](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
+5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
+6. Create or use the [flow](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md)
 
 <!-- tabs:end -->
 
