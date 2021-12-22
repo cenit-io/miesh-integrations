@@ -4,6 +4,7 @@
 
 * SAPSuccessFactors [source-data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 * Review the SAPSuccessFactors Employee Central CompoundEmployee API specification.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://help.sap.com/viewer/d599f15995d348a1b45ba5603e2aba9b/2111/en-US/5c8bca0af1654b05a83193b2922dcee2.html)
+* Review Ruby Nokogiri::XML documentation.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML)
 * The resource schema in the API-Service response.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 

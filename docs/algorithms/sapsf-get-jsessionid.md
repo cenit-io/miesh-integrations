@@ -3,7 +3,7 @@
 ## Requirements
 
 * Identify the input data, the purpose and the output data.
-* Review Ruby Nokogiri::XML documentation.
+* Review Ruby Nokogiri::XML::Builder documentation.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Builder)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating the algorithm
