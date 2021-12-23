@@ -24,7 +24,7 @@
     >- **Before submit**: 
     >   - [SAPSuccessFactors | setup_import_compoundemployees_before_submit](algorithms/sapsf-setup_import_compoundemployees_before_submit.md)
     >- **After process callbacks**: 
-    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](../algorithms/sapsf-setup_import_next_page_after_callback.md)
+    >   - [SAPSuccessFactors | setup_import_next_page_after_callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
     >   - [SAPSuccessFactors | convert_import_compoundemployees_after_callback](algorithms/sapsf-convert_import_compoundemployees_after_callback.md)
     >- **Active**: true
     >- **Notify request**: true
