@@ -6,7 +6,7 @@
 * SAPSuccessFactors [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
 * SAPSuccessFactors [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
 * SAPSuccessFactors [before-submit](algorithms/sapsf-setup_import_before_submit.md)
-* SAPSuccessFactors [after-callback](../algorithms/sapsf-setup_import_next_page_after_callback_old.md)
+* SAPSuccessFactors [after-callback](algorithms/sapsf-setup_import_next_page_after_callback_old.md)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating flow
