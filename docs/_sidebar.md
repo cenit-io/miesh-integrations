@@ -16,6 +16,7 @@
 - [SAPSF sfapi connection role](connection-roles/SAPSuccessFactors-connection_sfapi.md)
 - **Data-Types**
 - [SAPSF PerPersonal](data-types/SAPSuccessFactors-PerPersonal.md)
+- [SAPSF CompoundEmployee](data-types/SAPSuccessFactors-CompoundEmployee.md)
 - [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
 - **Translators**
 - [SAPSF Parser response PerPersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)

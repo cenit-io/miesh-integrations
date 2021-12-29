@@ -14,7 +14,7 @@
 * Complete the fields of the form with the following information or those corresponding to your business:
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: connection
+    >- **Name**: connection-odata
     >- **Url**: https://api2.successfactors.eu/odata/v2/
     >- **Authorization**: SAPSuccessFactors | auth-basic
     >- **Parameters**: $format = JSON

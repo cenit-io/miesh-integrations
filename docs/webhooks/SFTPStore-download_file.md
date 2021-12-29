@@ -29,6 +29,6 @@
     
 ### Add new webhook
 
-   ![](../assets/snapshots/sftp-store-wh/snapshots-002.png)
-   ![](../assets/snapshots/sftp-store-wh/snapshots-003.png)
-   ![](../assets/snapshots/sftp-store-wh/snapshots-004.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-302.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-303.png)
+   ![](../assets/snapshots/sftp-store-wh/snapshots-304.png)
