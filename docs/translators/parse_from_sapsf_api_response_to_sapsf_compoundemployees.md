@@ -28,7 +28,11 @@ result = xml.at_xpath('//ns1:result', 'ns1' => 'urn:sfobject.sfapi.successfactor
 
 data = Hash.from_xml(result.to_xml).deep_symbolize_keys
 
-data[:result][:sfobject].each do |item|
+items = data[:result][:sfobject]
+
+items.each do |item|
+  item[:person][:personal_information] = item[:person][:personal_information].first if item[:person][:personal_information].is_a?(Array)
+
   target = {
     personIdExternal: item[:person][:person_id_external],
     firstName: item[:person][:personal_information][:first_name],
@@ -37,6 +41,19 @@ data[:result][:sfobject].each do |item|
   }
 
   target_data_type.create_from_json!(target, primary_field: [:personIdExternal])
+end
+
+# Preparing the request of the next page.
+begin
+  task.state[:next_page_info] ||= {}
+  if data[:result][:hasMore] == 'true'
+    task.state[:next_page_info] = {
+      query_session_id: data[:result][:querySessionId],
+      current_page: task.state[:next_page_info][:current_page].to_i + 1,
+    }
+  else
+    task.state[:next_page_info] = nil
+  end
 end
 ```
 ## Snapshots of the process

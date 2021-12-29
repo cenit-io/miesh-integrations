@@ -24,9 +24,12 @@
 ## Code snippet
 
 ```ruby
-get_jsessionid = Cenit.namespace(:SAPSuccessFactors).algorithm(:get_jsessionid)
+task.state[:jsessionid] ||=  begin
+  get_jsessionid = Cenit.namespace(:SAPSuccessFactors).algorithm(:get_jsessionid)
+  get_jsessionid.run
+end
 
-options[:template_parameters]['jsessionid'] = get_jsessionid.run
+options[:template_parameters]['jsessionid'] = task.state[:jsessionid]
 
 options[:body] = begin
   builder = Nokogiri::XML::Builder.new_builder
@@ -34,13 +37,21 @@ options[:body] = begin
   builder[:soapenv].Envelope('xmlns:soapenv' => 'http://schemas.xmlsoap.org/soap/envelope/', 'xmlns:urn' => 'urn:sfobject.sfapi.successfactors.com') {
     builder[:soapenv].Header
     builder[:soapenv].Body {
-      builder[:urn].query {
-        builder[:urn].queryString("SELECT person, personal_information FROM CompoundEmployee")
-        builder[:urn].param {
-          builder[:urn].name('batchSize')
-          builder[:urn].value('200')
+
+      if task.state[:next_page_info].blank?
+        builder[:urn].query {
+          builder[:urn].queryString("SELECT person, personal_information FROM CompoundEmployee")
+          builder[:urn].param {
+            builder[:urn].name('batchSize')
+            builder[:urn].value(10)
+          }
         }
-      }
+      else
+        builder[:urn].queryMore {
+          builder[:urn].querySessionId(task.state[:next_page_info][:query_session_id])
+        }
+      end
+
     }
   }
 

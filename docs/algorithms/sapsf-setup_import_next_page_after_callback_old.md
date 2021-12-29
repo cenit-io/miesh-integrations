@@ -1,4 +1,4 @@
-# Create an algorithm to setup the import request before submitting it
+# Create a callback algorithm to import a new block
 
 ## Requirements
 
@@ -13,23 +13,23 @@
 * Complete the form fields with the information corresponding to the algorithm in question.
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: setup_import_before_submit
-    >- **Parameters**: options, task
+    >- **Name**: setup_import_next_page_after_callback
+    >- **Parameters**: task
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language.
 
-    > **Note**: For the name of the algorithms before_submit, the following format is recommended **setup_{*flow_type*}_{*resource*}_before_submit** or **setup_{*flow_type*}_before_submit** when the same algorithm can be applied in several flows of the same type but over different resources.
+    > **Note**: For the name of the algorithms after_callback, the following format is recommended **{*purpose_action*}\_{*flow_type*}\_{*purpose_noun*}_after_callback**
 
 ## Code snippet
 
-Set the skiptoken template-parameters with the reference value to the next page, obtained in the [after-callback](sapsf-setup_import_next_page_after_callback_old.md)
+Set the skiptoken task-state with the reference value to the next page, to be used later in the [before-submit](algorithms/sapsf-setup_import_before_submit.md).
 
 ```ruby
-# Set the number of items per page.
-options[:template_parameters]['limit'] = 200
+query_params = URI.try(:decode_www_form, task.state[:next_page] || '').to_h
 
-# Set the token of the next page to import.
-options[:template_parameters]['skiptoken'] = task.state[:skiptoken]
+task.state[:skiptoken] = query_params['$skiptoken']
+
+task.run_again unless task.state[:skiptoken].nil?
 ```
 
 ## Snapshots of the process
@@ -41,4 +41,4 @@ options[:template_parameters]['skiptoken'] = task.state[:skiptoken]
 ### Add new algorithm
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-algs/snapshots-003.png)
+   ![](../assets/snapshots/sap-sf-algs/snapshots-004.png)

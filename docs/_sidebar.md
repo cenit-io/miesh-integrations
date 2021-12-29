@@ -41,7 +41,7 @@
 - [SAPSF Get jsessionid](algorithms/sapsf-get-jsessionid.md)
 - [SAPSF Setup import CompoundEmployees before submit](algorithms/sapsf-setup_import_compoundemployees_before_submit.md)
 - [SAPSF Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
-- [SAPSF Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
+- [SAPSF Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback_old.md)
 - [SAPSF Convert import after callback](algorithms/sapsf-convert_import_perpersonal_after_callback.md)
 - [SFTPStore Setup import before submit](algorithms/sftpstore-setup_import_before_submit.md)
 - [SFTPStore Convert import after callback](algorithms/sftpstore-convert_import_perpersonal_after_callback.md)
