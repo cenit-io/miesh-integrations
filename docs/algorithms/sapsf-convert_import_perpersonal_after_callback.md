@@ -24,7 +24,9 @@
 Start [conversion flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md) when import is finished
 
 ```ruby
-Cenit.namespace(:SAPSuccessFactors).flow(:do_convert_from_sapsf_to_sftpstore_perpersonal).process if task.state[:skiptoken].nil?
+ns_sapsf = Cenit.namespace(:SAPSuccessFactors)
+flow = ns_sapsf.flow(:do_convert_from_sapsf_to_sftpstore_perpersonal)
+flow.process if task.state[:next_page_info].blank?
 ```
 
 ## Snapshots of the process
