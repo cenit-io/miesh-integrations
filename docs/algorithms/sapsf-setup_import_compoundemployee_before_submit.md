@@ -14,7 +14,7 @@
 * Complete the form fields with the information corresponding to the algorithm in question.
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: setup_import_compoundemployees_before_submit
+    >- **Name**: setup_import_compoundemployee_before_submit
     >- **Parameters**: options, task
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language.
@@ -43,7 +43,7 @@ options[:body] = begin
           builder[:urn].queryString("SELECT person, personal_information FROM CompoundEmployee")
           builder[:urn].param {
             builder[:urn].name('batchSize')
-            builder[:urn].value(10)
+            builder[:urn].value(options[:template_parameters]['limit'])
           }
         }
       else

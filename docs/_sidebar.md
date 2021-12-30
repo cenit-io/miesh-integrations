@@ -20,7 +20,7 @@
 - [SFTPStore PerPersonal](data-types/SFTPStore-PerPersonal.md)
 - **Translators**
 - [SAPSF Parser response PerPersonal](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-- [SAPSF Parser response CompoundEmployees](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployees.md)
+- [SAPSF Parser response CompoundEmployees](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
 - [SAPSF Template upload](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
 - [SAPSF Converter](translators/parse_from_sapsf_to_sftpstore_perpersonal.md)
 - [SFTPStore Parser download](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
@@ -39,7 +39,7 @@
 - [SFTPStore Convert PerPersonal](flows/do_convert_from_sftpstore_to_sapsf_perpersonal.md)
 - **Algorithms**
 - [SAPSF Get jsessionid](algorithms/sapsf-get-jsessionid.md)
-- [SAPSF Setup import CompoundEmployees before submit](algorithms/sapsf-setup_import_compoundemployees_before_submit.md)
+- [SAPSF Setup import CompoundEmployee before submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
 - [SAPSF Setup import before submit](algorithms/sapsf-setup_import_before_submit.md)
 - [SAPSF Setup import after callback](algorithms/sapsf-setup_import_next_page_after_callback_old.md)
 - [SAPSF Convert import after callback](algorithms/sapsf-convert_import_perpersonal_after_callback.md)

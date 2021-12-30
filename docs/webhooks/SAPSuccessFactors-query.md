@@ -18,7 +18,7 @@
     >- **Path**: soap
     >- **Method**: post
     >- **Headers**: Cookie = JSESSIONID={{jsessionid}}
-    >- **Template Parameters**: jsessionid
+    >- **Template Parameters**: limit = 200, jsessionid
 
     > **Note**: For the name of the webhook, the following format is recommended **{*webhook_action*}\_{*webhook_noun*}**
 

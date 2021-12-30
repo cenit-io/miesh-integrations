@@ -110,9 +110,9 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 3. Create [webhook (query)](webhooks/SAPSuccessFactors-query.md)
 4. Use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
 5. Create the login algorithm [get_jsessionid](algorithms/sapsf-get-jsessionid.md)
-6. Create algorithm [before submit](algorithms/sapsf-setup_import_compoundemployees_before_submit.md) for build the body of the XML to the request.
+6. Create algorithm [before submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md) for build the body of the XML to the request.
 7. Create or use the pagination algorithm [after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
-8. Create or use the conversion algorithm [after callback](algorithms/sapsf-convert_import_compoundemployees_after_callback.md)
+8. Create or use the conversion algorithm [after callback](algorithms/sapsf-convert_import_compoundemployee_after_callback.md)
 9. Create the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployees.md)
 9. Create the [flow](flows/do_import_from_sapsf_compoundemployees.md)
 
