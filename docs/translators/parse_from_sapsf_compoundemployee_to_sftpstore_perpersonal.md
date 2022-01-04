@@ -47,4 +47,4 @@ target_data_type.create_from_json!(target_data, primary_field: [:filename])
     
 ### Add new translator
 
-   ![](../assets/snapshots/sap-sf-trans/snapshots-001.png)
+   ![](../assets/snapshots/sap-sf-trans/snapshots-005.png)

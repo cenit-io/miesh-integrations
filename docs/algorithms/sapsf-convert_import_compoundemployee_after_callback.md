@@ -1,4 +1,4 @@
-# Create callback algorithm to start convert flow after imported from api SAP-SuccessFactors
+# Create callback algorithm to start convert flow after imported from CompoundEmployee api SAP-SuccessFactors
 
 ## Requirements
 * Identify the input data, the purpose and the output data.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit-io.github.io/docs/#/algorithms?id=algorithm39s-attributes)
@@ -38,4 +38,4 @@ flow.process if task.state[:next_page_info].blank?
 ### Add new algorithm
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
-   ![](../assets/snapshots/sap-sf-algs/snapshots-005.png)
+   ![](../assets/snapshots/sap-sf-algs/snapshots-008.png)

@@ -1,4 +1,4 @@
-# Create callback algorithm to start convert flow after imported from api SAP-SuccessFactors
+# Create callback algorithm to start convert flow after imported from Odata api SAP-SuccessFactors
 
 ## Requirements
 * Identify the input data, the purpose and the output data.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit-io.github.io/docs/#/algorithms?id=algorithm39s-attributes)
