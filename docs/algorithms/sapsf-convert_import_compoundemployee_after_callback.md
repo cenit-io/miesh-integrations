@@ -12,7 +12,7 @@
 * Complete the form fields with the information corresponding to the algorithm in question.
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: convert_import_perpersonal_after_callback
+    >- **Name**: convert_import_compoundemployee_after_callback
     >- **Parameters**: task
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language.
@@ -21,11 +21,11 @@
 
 ## Code snippet
 
-Start [conversion flow](flows/do_convert_from_sapsf_to_sftpstore_perpersonal.md) when import is finished
+Start [conversion flow](flows/do_convert_from_sapsf_compoundemployee_to_sftpstore_perpersonal.md) when import is finished
 
 ```ruby
 ns_sapsf = Cenit.namespace(:SAPSuccessFactors)
-flow = ns_sapsf.flow(:do_convert_from_sapsf_to_sftpstore_perpersonal)
+flow = ns_sapsf.flow(:do_convert_from_sapsf_compoundemployee_to_sftpstore_perpersonal)
 flow.process if task.state[:next_page_info].blank?
 ```
 

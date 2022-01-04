@@ -14,6 +14,7 @@
     >- **Namespace**: SFTPStore
     >- **Name**: PerPersonal
     >- **Schema**: { ...[JSON Schema](https://json-schema.org/)... }
+    >- **Discard additional properties**: true
 
     > **Note**: In schema you can define the main attrs and a rawData attr of type object to store all the information of the resource.
 
