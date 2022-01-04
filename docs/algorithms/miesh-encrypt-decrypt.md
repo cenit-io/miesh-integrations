@@ -15,7 +15,7 @@
    
     >- **Namespace**: Miesh
     >- **Name**: test_encrypt_decrypt
-    >- **Parameters**: data
+    >- **Parameters**: originData
     >- **Language**: Ruby
     >- **Code**: Code snippet written in the Ruby language to test encrypt and decrypt a data buffer.
 
