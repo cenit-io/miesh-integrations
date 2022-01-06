@@ -98,16 +98,17 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 ## **Scenario 04**
 ## Scenario 04
 
-Import 200 CompoundEmployees records into a data-type, consolidate them into a single record immediately upon completion of the import, and finally export them to a file in the cloud upon completion of the consolidated record.
+Import CompoundEmployees records into a data-type, consolidate them into a single record immediately upon completion of the import, and finally export them to a file in the cloud upon completion of the consolidated record.
 
 In this scenario, an after-callback algorithm is used to start the conversion flow and an event after_create to start the export flow.
 
 ### Import CompoundEmployees data from SAP-SF via API Soap
 
-1. Use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
+1. Create or use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
 2. Create [connection](connections/SAPSuccessFactors-connection_sfapi.md)
 3. Create [webhook (login)](webhooks/SAPSuccessFactors-login.md)
 3. Create [webhook (query)](webhooks/SAPSuccessFactors-query.md)
+3. Create [connection-role](connection-roles/SAPSuccessFactors-connection_sfapi.md)
 4. Create [data-type](data-types/SAPSuccessFactors-CompoundEmployee.md)
 5. Create the login algorithm [get_jsessionid](algorithms/sapsf-get-jsessionid.md)
 6. Create algorithm [before submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md) for build the body of the XML to the request.
@@ -116,7 +117,7 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 9. Create the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
 9. Create the [flow](flows/do_import_from_sapsf_compoundemployee.md)
 
-### Convert PerPersonal records to a single consolidated record
+### Convert CompoundEmployee records to a single consolidated record
 
 1. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
 2. Create the converter [translator](translators/parse_from_sapsf_compoundemployee_to_sftpstore_perpersonal.md)

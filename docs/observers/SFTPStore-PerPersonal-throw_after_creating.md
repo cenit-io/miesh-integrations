@@ -18,11 +18,11 @@
 
 ## Snapshots of the process
 
-### Goto data-type module
+### Goto data-event module
 
    ![](../assets/snapshots/sftp-store-observers/snapshots-001.png)
     
-### Add new data-type
+### Add new data-event
 
    ![](../assets/snapshots/sftp-store-observers/snapshots-002.png)
    ![](../assets/snapshots/sftp-store-observers/snapshots-003.png)
