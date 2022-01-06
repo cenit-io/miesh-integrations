@@ -1,4 +1,4 @@
-# Create a flow to convert CompoundEmployee records to a single consolidated record
+# Create a flow to convert CompoundEmployee records to a single consolidated PerPersonal record
 
 ## Requirements
 
@@ -45,21 +45,22 @@
     
 ### Add new flow
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-203.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-208.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-303.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-304.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-305.png)
    
 ### Adding a scheduler event to the flow
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-208.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-209.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-210.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-211.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-212.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-213.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-306.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-307.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-308.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-309.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-310.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-311.png)
 
 ### Test flow (process)
 
-   ![](../assets/snapshots/sap-sf-flow/snapshots-204.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-205.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-206.png)
-   ![](../assets/snapshots/sap-sf-flow/snapshots-207.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-312.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-313.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-314.png)
+   ![](../assets/snapshots/sap-sf-flow/snapshots-315.png)

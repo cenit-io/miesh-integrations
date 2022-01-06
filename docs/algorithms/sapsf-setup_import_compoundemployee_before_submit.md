@@ -1,8 +1,9 @@
-# Create an algorithm to setup the import request before submitting it
+# Create an algorithm to setup the import CompoundEmployee request before submitting it
 
 ## Requirements
 
 * Identify the input data, the purpose and the output data.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit-io.github.io/docs/#/algorithms?id=algorithm39s-attributes)
+* Algorithm to [get jsessionid](algorithms/sapsf-get-jsessionid.md)
 * Review Ruby Nokogiri::XML::Builder documentation.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://www.rubydoc.info/github/sparklemotion/nokogiri/Nokogiri/XML/Builder)
 * Identify the pagination strategy.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://help.sap.com/viewer/d599f15995d348a1b45ba5603e2aba9b/2111/en-US/5c8bca0af1654b05a83193b2922dcee2.html)
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
