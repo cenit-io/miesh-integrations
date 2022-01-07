@@ -3,7 +3,7 @@
 ## Requirements
 
 * SFTPStore [source-data-type](data-types/SFTPStore-PerPersonal.md)
-* Algorithm to encrypt data.[<i class="fa fa-external-link" aria-hidden="true"></i>](algorithms/miesh-encrypt.md)
+* Algorithm to [encrypt](algorithms/miesh-encrypt.md) data.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
 ## Creating translator of template type

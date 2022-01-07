@@ -81,7 +81,8 @@ Make some modifications to some records of the SAPSuccessFactors:PerPersonal dat
 4. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
 5. Create or use the parser [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
 6. Create or use the setup algorithm [before submit](algorithms/sftpstore-setup_import_before_submit.md)
-9. Create or use the [flow](flows/do_import_from_sftp_server_perpersonal.md)
+7. Create the conversion algorithm [after callback](algorithms/sftpstore-convert_import_perpersonal_after_callback.md)
+8. Create or use the [flow](flows/do_import_from_sftp_server_perpersonal.md)
 
 ### Convert PerPersonal consolidated record to multiple records
 

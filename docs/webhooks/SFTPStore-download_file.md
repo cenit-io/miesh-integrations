@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* SFTPStore [connection](../connections/SFTPStore-connection.md)
+* SFTPStore [connection](connections/SFTPStore-connection.md)
 * The resource-path, http-method and parameters to download file from the SFTP-Server.
 * Sign in at CenitIO.[<i class="fa fa-external-link" aria-hidden="true"></i>](https://cenit.io/users/sign_in)
 
