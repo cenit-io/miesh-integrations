@@ -20,13 +20,13 @@
 #### **Scenario 01: Simple**
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: do_import_from_sapsf_compoundemployees
+    >- **Name**: do_import_from_sapsf_compoundemployee
     >- **Description**: Imports the records of the CompoundEmployee entity from SAP SuccessFactors and stores them transformed in cenit.
-    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_compoundemployees](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
+    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_compoundemployee](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
     >- **Webhook**: [SAPSuccessFactors | query](webhooks/SAPSuccessFactors-query.md)
     >- **Connection role**: [SAPSuccessFactors | connection-role-sfapi](connection-roles/SAPSuccessFactors-connection_sfapi.md)
     >- **Before submit**: 
-    >   - [SAPSuccessFactors | setup_import_compoundemployees_before_submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
+    >   - [SAPSuccessFactors | setup_import_compoundemployee_before_submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
     >- **After process callbacks**: 
     >   - [SAPSuccessFactors | setup_import_next_page_after_callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
     >- **Active**: true
@@ -36,16 +36,16 @@
 #### **Scenario 02: Connected with convert flow**
 
     >- **Namespace**: SAPSuccessFactors
-    >- **Name**: do_import_from_sapsf_compoundemployees
+    >- **Name**: do_import_from_sapsf_compoundemployee
     >- **Description**: Imports the records of the CompoundEmployee entity from SAP SuccessFactors and stores them transformed in cenit.
-    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_compoundemployees](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
+    >- **Translator**: [SAPSuccessFactors | parse_from_sapsf_api_response_to_sapsf_compoundemployee](translators/parse_from_sapsf_api_response_to_sapsf_compoundemployee.md)
     >- **Webhook**: [SAPSuccessFactors | query](webhooks/SAPSuccessFactors-query.md)
     >- **Connection role**: [SAPSuccessFactors | connection-role-sfapi](connection-roles/SAPSuccessFactors-connection_sfapi.md)
     >- **Before submit**: 
-    >   - [SAPSuccessFactors | setup_import_compoundemployees_before_submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
+    >   - [SAPSuccessFactors | setup_import_compoundemployee_before_submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
     >- **After process callbacks**: 
     >   - [SAPSuccessFactors | setup_import_next_page_after_callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
-    >   - [SAPSuccessFactors | convert_import_compoundemployees_after_callback](algorithms/sapsf-convert_import_compoundemployee_after_callback.md)
+    >   - [SAPSuccessFactors | convert_import_compoundemployee_after_callback](algorithms/sapsf-convert_import_compoundemployee_after_callback.md)
     >- **Active**: true
     >- **Notify request**: true
     >- **Notify response**: true    
