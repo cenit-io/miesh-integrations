@@ -31,7 +31,7 @@
     >- **Notify request**: true
     >- **Notify response**: true
 
-#### **Scenario 02: Connected with convert flow**
+#### **Scenario 02: Connected with convert flows**
 
     >- **Namespace**: SFTPStore
     >- **Name**: do_import_from_sftp_server_perpersonal

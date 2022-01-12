@@ -134,6 +134,36 @@ In this scenario, an after-callback algorithm is used to start the conversion fl
 5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
 6. Create or use the [flow](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md)
 
+## **Scenario 05**
+## Scenario 05
+
+Import encrypted PerPersonal data from a SFTP-Server, decrypt and save in SFTPStore:PerPersonal data-type.
+Apply a conversion flow to extract the imported data and store it in separate records in SAPSuccessFactors:CompoundEmployee data-type.
+Make some modifications to some records of the SAPSuccessFactors:CompoundEmployee data-type and re-export them.
+
+### Import PerPersonal data from SFTP-Server
+
+1. Create or use the [authorization](authorizations/SFTPStore-auth_basic.md) 
+2. Create or use the [connection](connections/SFTPStore-connection.md)
+3. Create or use the [webhook](webhooks/SFTPStore-download_file.md)
+4. Create or use the [data-type](data-types/SFTPStore-PerPersonal.md)
+5. Create or use the parser [translator](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
+6. Create or use the setup algorithm [before submit](algorithms/sftpstore-setup_import_before_submit.md)
+7. Create or update the conversion algorithm [after callback](algorithms/sftpstore-convert_import_perpersonal_after_callback.md) for start multiple conversions.
+8. Create or use the [flow](flows/do_import_from_sftp_server_perpersonal.md)
+
+### Convert PerPersonal consolidated record to multiple CompoundEmployee records
+
+1. Create or use the [data-type](data-types/SAPSuccessFactors-CompoundEmployee.md)
+2. Create the converter [translator](translators/parse_from_sftpstore_to_sapsf_compoundemployee.md)
+4. Create the [flow](flows/do_convert_from_sftpstore_to_sapsf_compoundemployee.md)
+
+### Re-Export PerPersonal records to SFTP-Server
+
+1. Update some records of the SAPSuccessFactors:CompoundEmployee data-type.
+2. Apply the [flow](flows/do_convert_from_sapsf_compoundemployee_to_sftpstore_perpersonal.md) to Convert CompoundEmployee records to a single consolidated record described in *Scenario 04*.
+3. Apply the [flow](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md) to Export consolidated PerPersonal record to SFTPStore described in *Scenario 02*.
+
 <!-- tabs:end -->
 
 <hr />

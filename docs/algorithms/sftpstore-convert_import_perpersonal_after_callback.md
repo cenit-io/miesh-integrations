@@ -22,12 +22,29 @@
 
 ## Code snippet
 
-Start [conversion flow](flows/do_convert_from_sftpstore_to_sapsf_perpersonal.md) when import is finished
+* Start [conversion flow to SAPSuccessFactors:PerPersonal](flows/do_convert_from_sftpstore_to_sapsf_perpersonal.md) when import is finished.
+* Start [conversion flow to SAPSuccessFactors:CompoundEmployee](flows/do_convert_from_sftpstore_to_sapsf_compoundemployee.md) when import is finished.
 
+<!-- tabs:start -->
+
+#### **Start a single conversion**
 ```ruby
 source_id = task.state[:target_id]
-Cenit.namespace(:SFTPStore).flow(:do_convert_from_sftpstore_to_sapsf_perpersonal).process(object_id: source_id) unless source_id.nil?
+
+ns_ss = Cenit.namespace(:SFTPStore)
+ns_ss.flow(:do_convert_from_sftpstore_to_sapsf_perpersonal).process(object_id: source_id) unless source_id.nil?
 ```
+#### **Start multiple conversions**
+```ruby
+source_id = task.state[:target_id]
+
+ns_ss = Cenit.namespace(:SFTPStore)
+unless source_id.nil?
+  ns_ss.flow(:do_convert_from_sftpstore_to_sapsf_perpersonal).process(object_id: source_id) 
+  ns_ss.flow(:do_convert_from_sftpstore_to_sapsf_compoundemployee).process(object_id: source_id)
+end
+```
+<!-- tabs:end -->
 
 ## Snapshots of the process
 
@@ -39,3 +56,4 @@ Cenit.namespace(:SFTPStore).flow(:do_convert_from_sftpstore_to_sapsf_perpersonal
 
    ![](../assets/snapshots/common-algs/snapshots-002.png)
    ![](../assets/snapshots/sftp-store-algs/snapshots-004.png)
+   ![](../assets/snapshots/sftp-store-algs/snapshots-005.png)

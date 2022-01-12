@@ -26,7 +26,8 @@
 - [SAPSF Converter CompoundEmployee](translators/parse_from_sapsf_compoundemployee_to_sftpstore_perpersonal.md)
 - [SFTPStore Parser download](translators/parse_from_sftp_server_download_response_to_sftpstore_perpersonal.md)
 - [SFTPStore Template upload](translators/parse_from_sftpstore_perpersonal_to_sftp_server_upload_request.md)
-- [SFTPStore Converter](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
+- [SFTPStore Converter to SAPSF:PerPersonal](translators/parse_from_sftpstore_to_sapsf_perpersonal.md)
+- [SFTPStore Converter to SAPSF:CompoundEmployee](translators/parse_from_sftpstore_to_sapsf_compoundemployee.md)
 - **Observers**
 - [SFTPStore after create PerPersonal](observers/SFTPStore-PerPersonal-throw_after_creating.md)
 - [Miesh once a day Scheduler](observers/Miesh-throw_once_a_day.md)
@@ -39,6 +40,7 @@
 - [SFTPStore Import PerPersonal](flows/do_import_from_sftp_server_perpersonal.md)
 - [SFTPStore Export PerPersonal](flows/do_export_from_sftpstore_to_sftp_server_perpersonal.md)
 - [SFTPStore Convert PerPersonal](flows/do_convert_from_sftpstore_to_sapsf_perpersonal.md)
+- [SFTPStore Convert CompoundEmployee](flows/do_convert_from_sftpstore_to_sapsf_compoundemployee.md)
 - **Algorithms**
 - [SAPSF Get jsessionid](algorithms/sapsf-get-jsessionid.md)
 - [SAPSF Setup import CompoundEmployee before submit](algorithms/sapsf-setup_import_compoundemployee_before_submit.md)
