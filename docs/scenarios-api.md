@@ -17,9 +17,8 @@ records of the same data-type, prepares and sends the file to the cloud.
 3. Create the webhook for get perpersonal information
 4. Create the data-type PerPersonal
 5. Create the parser translator
-6. Create the setup algorithm before submit
-7. Create the pagination algorithm after callback
-8. Create the flow-import
+6. Create the before-submit algorithm to setup request
+7. Create the import-flow
 
 
 ## Code
@@ -332,12 +331,14 @@ create_scenario();
 
 ### Export PerPersonal records to SFTP-Server
 
-1. Create the authorization
-2. Create the connection
-3. Create the webhook
+1. Create the basic-authorization
+2. Create the connection for the SFTP-Server
+3. Create the webhook for upload a file
 4. Create the template translator
-5. Create the encrypt algorithm
-6. Create the flow-export
+5. Create the encryption algorithm
+6. Create the export-flow
+7. Create a after-callback algorithm to process export 
+8. Update the import-flow to add the new after-callback algorithm
 
 ## Code
 
@@ -349,4 +350,4 @@ create_scenario();
 
 <hr />
 
-> For more details see also [CenitIO documentation](https://cenit-io.github.io/docs)
+> For more details see also [CenitIO API Specifications (v2)](https://cenit-io.github.io/api-v2-specs/)
