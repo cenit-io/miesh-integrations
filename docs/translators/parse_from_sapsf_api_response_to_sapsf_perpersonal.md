@@ -36,7 +36,7 @@ items.each do |item|
     personIdExternal: item[:personIdExternal],
     firstName: item[:firstName],
     lastName: item[:lastName],
-    data: item
+    rawData: item
   }
 
   target_data_type.create_from_json!(target, primary_field: [:personIdExternal])

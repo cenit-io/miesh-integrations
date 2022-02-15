@@ -27,7 +27,7 @@
 options[:template_parameters]['limit'] = 200
 
 # Set the token of the next page to import.
-options[:template_parameters]['skiptoken'] = task.state[:next_page_info][:skiptoken]
+options[:template_parameters]['skiptoken'] = task.state[:next_page_info][:skiptoken] unless task.state[:next_page_info].blank?
 ```
 
 ## Snapshots of the process
