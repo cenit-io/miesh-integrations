@@ -1,4 +1,5 @@
-- [Overview](overview.md)
+- [Scenarios via GUI](scenarios-gui.md)
+- [Scenarios via API](scenarios-api.md)
 - **Authorizations**
 - [SAPSF Basic auth](authorizations/SAPSuccessFactors-auth_basic.md)
 - [SFTPStore Basic auth](authorizations/SFTPStore-auth_basic.md)
