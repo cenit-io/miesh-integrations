@@ -21,7 +21,7 @@ it reads the records of the same data-type, prepares and sends the file to the c
 7. Create the import-flow
 
 
-## Code
+### Code with the import steps
 
 ```javascript
 const dotenv = require('dotenv')
@@ -340,7 +340,7 @@ create_scenario_01_import();
 7. Create a after-callback algorithm to process export 
 8. Update the import-flow to add the new after-callback algorithm
 
-## Code
+### Code with the export steps
 
 ```javascript
 const dotenv = require('dotenv')
