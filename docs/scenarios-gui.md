@@ -12,23 +12,23 @@ records of the same data-type, prepares and sends the file to the cloud.
 
 ### Import PerPersonal from SAP-SF
 
-1. Create or use the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
-2. Create or use the [connection](connections/SAPSuccessFactors-connection_odata.md)
-3. Create or use the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
-4. Create or use the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
-5. Create or use the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
-6. Create or use the setup algorithm [before submit](algorithms/sapsf-setup_import_before_submit.md)
-7. Create or use the pagination algorithm [after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
-8. Create or use the [flow](flows/do_import_from_sapsf_perpersonal.md)
+1. Create the [authorization](authorizations/SAPSuccessFactors-auth_basic.md) 
+2. Create the [connection](connections/SAPSuccessFactors-connection_odata.md)
+3. Create the [webhook](webhooks/SAPSuccessFactors-get_perpersonal.md)
+4. Create the [data-type](data-types/SAPSuccessFactors-PerPersonal.md)
+5. Create the parser [translator](translators/parse_from_sapsf_api_response_to_sapsf_perpersonal.md)
+6. Create the setup algorithm [before submit](algorithms/sapsf-setup_import_before_submit.md)
+7. Create the pagination algorithm [after callback](algorithms/sapsf-setup_import_next_page_after_callback.md)
+8. Create the [flow](flows/do_import_from_sapsf_perpersonal.md)
 
 ### Export PerPersonal records to SFTP-Server
 
-1. Create or use the [authorization](authorizations/SFTPStore-auth_basic.md) 
-2. Create or use the [connection](connections/SFTPStore-connection.md)
-3. Create or use the [webhook](webhooks/SFTPStore-upload_file.md)
-4. Create or use the template [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
-5. Create or use the [encrypt](algorithms/miesh-encrypt.md) algorithm
-6. Create or use the [flow](flows/do_export_from_sapsf_to_sftp_server_perpersonal.md)
+1. Create the [authorization](authorizations/SFTPStore-auth_basic.md) 
+2. Create the [connection](connections/SFTPStore-connection.md)
+3. Create the [webhook](webhooks/SFTPStore-upload_file.md)
+4. Create the template [translator](translators/parse_from_sapsf_perpersonal_to_sftp_server_upload_request.md)
+5. Create the [encrypt](algorithms/miesh-encrypt.md) algorithm
+6. Create the [flow](flows/do_export_from_sapsf_to_sftp_server_perpersonal.md)
 
 ## **Scenario 02**
 ## Scenario 02

@@ -10,9 +10,11 @@ Simple PerPersonal import and export processes with a single data type.
 In this scenario, the records are imported into a data-type and when finish the import flow then export process is started, 
 it reads the records of the same data-type, prepares and sends the file to the cloud.
 
+In this scenario, an after-callback algorithm is used to start the export flow.
+
 ### Import PerPersonal from SAP-SF
 
-1. Create the basic-authorization 
+1. Create the basic-authorization for OData-API
 2. Create the connection for OData-API
 3. Create the webhook for get perpersonal information
 4. Create the data-type PerPersonal
@@ -630,6 +632,356 @@ async function create_scenario_01_export() {
 
 create_scenario_01_export();
 ```
+
+## **Scenario 02**
+## Scenario 02
+
+Import all PerPersonal records into a data-type, consolidate them into a single record immediately upon completion of the import, 
+and finally export them to a file in the cloud upon completion of the consolidated record.
+
+In this scenario, an after-callback algorithm is used to start the conversion flow and an event after_create to start the export flow.
+
+### Import PerPersonal from SAP-SF
+
+1. Use the basic-authorization for OData-API
+2. Use the connection for OData-API
+3. Use the webhook for get perpersonal information
+4. Use the data-type PerPersonal
+5. Use the parser translator
+6. Use the before-submit algorithm to setup request
+7. Use the the import-flow
+8. Update the active attribute of the export-flow 
+
+### Code with the import steps
+```javascript
+const dotenv = require('dotenv')
+const axios = require('axios');
+
+dotenv.config();
+
+axios.defaults.baseURL = process.env['BASE_URL'] || 'https://cenit.io/api/v2/';
+axios.defaults.headers.common['Content-Type'] = 'application/json'
+axios.defaults.headers.common['X-Tenant-Access-Key'] = process.env['X_TENANT_ACCESS_KEY']
+axios.defaults.headers.common['X-Tenant-Access-Token'] = process.env['X_TENANT_ACCESS_TOKEN']
+
+function request(options) {
+  const axiosInstance = axios.create();
+
+  return axiosInstance(options).then(
+    (response) => {
+      if (response.data.errors) throw { response: response }
+      return response.data
+    }
+  ).catch(
+    (err) => {
+      throw (err.response ? err.response.data : err.message)
+    }
+  );
+}
+
+const namespace_source = 'APITest_SAPSF'
+const namespace_target = 'APITest_SFTPStore'
+
+/**
+ * Update the export-flow
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_flow
+ */
+async function update_flow_sapsf_export() {
+
+  const item = await request({
+    method: 'POST',
+    url: 'setup/flow',
+    headers: {
+      'X-Parser-Options': JSON.stringify({
+        primary_fields: ['namespace','name'],
+      })
+    },
+    data: {
+      namespace: namespace_source,
+      name: 'do_export_to_sftp_server_perpersonal',
+      translator: {
+        _reference: true,
+        namespace: namespace_source,
+        name: 'parse_from_sapsf_perpersonal_to_sftp_server_upload_request'
+      },
+      webhook: {
+        _reference: true, namespace: namespace_target, name: 'upload_file'
+      },
+      active: false,
+    }
+  });
+
+  return item;
+};
+
+async function create_scenario_02_import() {
+  try {
+    console.log('STEP-01: Use the basic-authorization for OData-API');
+    console.log('STEP-02: Use the connection for OData-API');
+    console.log('STEP-03: Use the webhook for get perpersonal information');
+    console.log(`STEP-04: Use the data-type ${namespace_source}::PerPersonal`);
+    console.log('STEP-05: Use the parser translator');
+    console.log('STEP-06: Use the before-submit algorithm to setup request');
+    console.log('STEP-07: Use the the import-flow');
+
+    console.log(`STEP-08: Update the active attribute of the ${namespace_source}::do_export_to_sftp_server_perpersonal export-flow; to that not start when finish the import flow`);
+    await update_flow_sapsf_export();
+
+  } catch (err) {
+    console.log(JSON.stringify(err, null, 2))
+  }
+};
+
+create_scenario_02_import();
+```
+
+### Convert PerPersonal records to a single consolidated record
+
+1. Use the source data-type PerPersonal 
+2. Create the target data-type PerPersonal
+2. Create the converter translator
+4. Create the convert-flow
+5. Create a after-callback algorithm to process convert
+6. Update the import-flow to add the new after-callback algorithm
+7. Create the after create data-event over target data-type
+
+### Code with the convert steps
+```javascript
+const dotenv = require('dotenv')
+const axios = require('axios');
+
+dotenv.config();
+
+axios.defaults.baseURL = process.env['BASE_URL'] || 'https://cenit.io/api/v2/';
+axios.defaults.headers.common['Content-Type'] = 'application/json'
+axios.defaults.headers.common['X-Tenant-Access-Key'] = process.env['X_TENANT_ACCESS_KEY']
+axios.defaults.headers.common['X-Tenant-Access-Token'] = process.env['X_TENANT_ACCESS_TOKEN']
+
+function request(options) {
+    const axiosInstance = axios.create();
+
+    return axiosInstance(options).then(
+        (response) => {
+            if (response.data.errors) throw { response: response }
+            return response.data
+        }
+    ).catch(
+        (err) => {
+            throw (err.response ? err.response.data : err.message)
+        }
+    );
+}
+
+const namespace_source = 'APITest_SAPSF'
+const namespace_target = 'APITest_SFTPStore'
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_json_data_type
+ */
+async function create_json_data_type() {
+    const item = await request({
+        method: 'POST',
+        url: 'setup/json_data_type',
+        data: {
+            namespace: namespace_target,
+            name: 'PerPersonal',
+            code: JSON.stringify({
+                "type": "object",
+                "properties": {
+                    "filename": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "string"
+                    }
+                }
+            })
+        }
+    });
+
+    return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_ruby_converter
+ */
+async function create_ruby_converter() {
+    const code = `
+    content = '';
+    
+    sources.each do |item|
+      # Add and customize the row of csv file  
+      content << item.personIdExternal << ','
+      content << item.firstName << ',' 
+      content << item.lastName << "\\n"
+    end
+    
+    date = DateTime.now.iso8601
+    target_data = { filename:  "perpersonal-#{date}.csv", content: content }
+    
+    target_data_type.create_from_json!(target_data, primary_field: [:filename])
+  `;
+
+    const item = await request({
+        method: 'POST',
+        url: 'setup/ruby_converter',
+        data: {
+            namespace: namespace_source,
+            name: 'parse_from_sapsf_to_sftpstore_perpersonal',
+            source_handler: true,
+            source_data_type: { _reference: true, namespace: namespace_source, name: 'PerPersonal' },
+            target_data_type: { _reference: true, namespace: namespace_target, name: 'PerPersonal' },
+            code: code,
+        }
+    });
+
+    return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_flow
+ */
+async function create_flow_convert() {
+    const item = await request({
+        method: 'POST',
+        url: 'setup/flow',
+        data: {
+            namespace: namespace_source,
+            name: 'do_convert_from_sapsf_to_sftpstore_perpersonal',
+            description: `To convert all ${namespace_source}::PerPersonal records to a single record in ${namespace_target}::PerPersonal with the content of a file in CSV format.`,
+            notify_request: true,
+            notify_response: true,
+            active: true,
+            translator: {
+                _reference: true, namespace: namespace_source, name: 'parse_from_sapsf_to_sftpstore_perpersonal'
+            },
+        }
+    });
+
+    return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_algorithm
+ */
+async function create_after_callback_algorithm() {
+    const code = `
+    ns_sapsf = Cenit.namespace(:${namespace_source})
+    flow = ns_sapsf.flow(:do_convert_from_sapsf_to_sftpstore_perpersonal)
+    flow.process if task.state[:next_page_info].blank? and flow.active
+  `;
+
+    const item = await request({
+        method: 'POST',
+        url: 'setup/algorithm',
+        data: {
+            namespace: namespace_source,
+            name: 'after_callback_for_start_convert',
+            language: 'ruby',
+            code: code,
+            parameters: [
+                { name: 'task', required: true },
+            ],
+        }
+    });
+
+    return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_flow
+ */
+async function update_flow_import() {
+    const item = await request({
+        method: 'POST',
+        url: 'setup/flow',
+        headers: {
+            'X-Parser-Options': JSON.stringify({
+                primary_fields: ['namespace', 'name'],
+            })
+        },
+        data: {
+            namespace: namespace_source,
+            name: 'do_import_from_sapsf_perpersonal',
+            translator: {
+                _reference: true,
+                namespace: namespace_source,
+                name: 'parse_from_sapsf_api_response_to_sapsf_perpersonal'
+            },
+            webhook: {
+                _reference: true, namespace: namespace_source, name: 'get_personal_information'
+            },
+            after_process_callbacks: [
+                { _reference: true, namespace: namespace_source, name: 'after_callback_for_import' },
+                { _reference: true, namespace: namespace_source, name: 'after_callback_for_start_export' },
+                { _reference: true, namespace: namespace_source, name: 'after_callback_for_start_convert' }
+            ],
+        }
+    });
+
+    return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_observer
+ */
+async function create_observer() {
+
+    const item = await request({
+        method: 'POST',
+        url: 'setup/observer',
+        data: {
+            namespace: namespace_target,
+            name: 'throw_after_creating',
+            data_type: { _reference: true, namespace: namespace_target, name: 'PerPersonal' },
+            triggers: { created_at: [{ o: '_not_null', v: ['', '', ''] }] }
+        }
+    });
+
+    return item;
+};
+
+async function create_scenario_02_convert() {
+    try {
+        console.log(`STEP-01: Using the source data-type ${namespace_source}::PerPersonal`);
+
+        console.log(`STEP-02: Create the target data-type ${namespace_target}::PerPersonal`);
+        await create_json_data_type();
+
+        console.log('STEP-03: Create the converter translator');
+        await create_ruby_converter();
+
+        console.log(`STEP-04: Create the flow for convert ${namespace_source}::PerPersonal records to a ${namespace_target}::PerPersonal single consolidated record`);
+        await create_flow_convert();
+
+        console.log('STEP-05: Create the after_callback algorithm for start convert');
+        await create_after_callback_algorithm();
+
+        console.log('STEP-06: Update the import-flow to add the new after-callback algorithm');
+        await update_flow_import();
+
+        console.log(`STEP-07: Create the after create data-event over ${namespace_target}::PerPersonal target data-type`);
+        await create_observer();
+
+    } catch (err) {
+        console.log(JSON.stringify(err, null, 2))
+    }
+};
+
+create_scenario_02_convert();
+```
+
+### Export consolidated PerPersonal record to SFTP-Server
+
+1. Use the basic-authorization for the SFTP-Server
+2. Use the connection for the SFTP-Server
+3. Use the webhook for upload a file
+4. Use the encryption algorithm
+5. Create the new template translator
+6. Create the new export-flow
+
+### Code with the export steps
+
 
 <!-- tabs:end -->
 
