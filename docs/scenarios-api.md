@@ -680,7 +680,6 @@ function request(options) {
 }
 
 const namespace_source = 'APITest_SAPSF'
-const namespace_target = 'APITest_SFTPStore'
 
 /**
  * Update the export-flow
@@ -694,19 +693,12 @@ async function update_flow_sapsf_export() {
     headers: {
       'X-Parser-Options': JSON.stringify({
         primary_fields: ['namespace','name'],
+        ignore: ['translator','webhook'],
       })
     },
     data: {
       namespace: namespace_source,
       name: 'do_export_to_sftp_server_perpersonal',
-      translator: {
-        _reference: true,
-        namespace: namespace_source,
-        name: 'parse_from_sapsf_perpersonal_to_sftp_server_upload_request'
-      },
-      webhook: {
-        _reference: true, namespace: namespace_target, name: 'upload_file'
-      },
       active: false,
     }
   });
@@ -719,7 +711,7 @@ async function create_scenario_02_import() {
     console.log('STEP-01: Use the basic-authorization for OData-API');
     console.log('STEP-02: Use the connection for OData-API');
     console.log('STEP-03: Use the webhook for get perpersonal information');
-    console.log(`STEP-04: Use the data-type ${namespace_source}::PerPersonal`);
+    console.log('STEP-04: Use the data-type PerPersonal');
     console.log('STEP-05: Use the parser translator');
     console.log('STEP-06: Use the before-submit algorithm to setup request');
     console.log('STEP-07: Use the the import-flow');
@@ -898,22 +890,14 @@ async function update_flow_import() {
         headers: {
             'X-Parser-Options': JSON.stringify({
                 primary_fields: ['namespace', 'name'],
+                ignore: ['translator','webhook'],
+                add_only: true
             })
         },
         data: {
             namespace: namespace_source,
             name: 'do_import_from_sapsf_perpersonal',
-            translator: {
-                _reference: true,
-                namespace: namespace_source,
-                name: 'parse_from_sapsf_api_response_to_sapsf_perpersonal'
-            },
-            webhook: {
-                _reference: true, namespace: namespace_source, name: 'get_personal_information'
-            },
             after_process_callbacks: [
-                { _reference: true, namespace: namespace_source, name: 'after_callback_for_import' },
-                { _reference: true, namespace: namespace_source, name: 'after_callback_for_start_export' },
                 { _reference: true, namespace: namespace_source, name: 'after_callback_for_start_convert' }
             ],
         }
@@ -981,7 +965,9 @@ create_scenario_02_convert();
 6. Create the new export-flow
 
 ### Code with the export steps
-
+```javascript
+//TODO...
+```
 
 <!-- tabs:end -->
 
