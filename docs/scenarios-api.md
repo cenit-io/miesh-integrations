@@ -966,7 +966,118 @@ create_scenario_02_convert();
 
 ### Code with the export steps
 ```javascript
-//TODO...
+const dotenv = require('dotenv')
+const axios = require('axios');
+
+dotenv.config();
+
+axios.defaults.baseURL = process.env['BASE_URL'] || 'https://cenit.io/api/v2/';
+axios.defaults.headers.common['Content-Type'] = 'application/json'
+axios.defaults.headers.common['X-Tenant-Access-Key'] = process.env['X_TENANT_ACCESS_KEY']
+axios.defaults.headers.common['X-Tenant-Access-Token'] = process.env['X_TENANT_ACCESS_TOKEN']
+
+function request(options) {
+  const axiosInstance = axios.create();
+
+  return axiosInstance(options).then(
+    (response) => {
+      if (response.data.errors) throw { response: response }
+      return response.data
+    }
+  ).catch(
+    (err) => {
+      throw (err.response ? err.response.data : err.message)
+    }
+  );
+}
+
+const namespace_target = 'APITest_SFTPStore'
+const namespace_common = 'APITest_Utils'
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_ruby_template
+ */
+async function create_ruby_template() {
+  const code = `
+    body = source.content
+    
+    template_parameters['filename'] = source.filename
+    
+    encrypt = Cenit.namespace(:${namespace_common}).algorithm(:encrypt)
+    key = OpenSSL::Digest('SHA256').digest('mieah-passwd')
+    iv = 'a2xhcgAAAAAAAAAA'
+    
+    encrypt.run([key, iv, body])
+  `;
+
+  const item = await request({
+    method: 'POST',
+    url: 'setup/ruby_template',
+    data: {
+      namespace: namespace_target,
+      name: 'parse_from_sftpstore_perpersonal_to_sftp_server_upload_request',
+      mime_type: "text/csv",
+      file_extension: "csv",
+      bulk_source: false,
+      source_data_type: { _reference: true, namespace: namespace_target, name: 'PerPersonal' },
+      code: code,
+    }
+  });
+
+  return item;
+};
+
+/**
+ * @see https://cenit-io.github.io/api-v2-specs/#operation/create_flow
+ */
+async function create_flow_export() {
+  const item = await request({
+    method: 'POST',
+    url: 'setup/flow',
+    data: {
+      namespace: namespace_target,
+      name: 'do_export_to_sftp_server_perpersonal',
+      description: `Export the consolidated record of the PerPersonal entity from the ${namespace_target} to an SFTP Server.`,
+      notify_request: true,
+      notify_response: true,
+      active: true,
+      translator: {
+        _reference: true,
+        namespace: namespace_target,
+        name: 'parse_from_sftpstore_perpersonal_to_sftp_server_upload_request'
+      },
+      webhook: {
+        _reference: true, namespace: namespace_target, name: 'upload_file'
+      },
+      data_type_scope: 'Event source',
+      event:  {
+        _reference: true, namespace: namespace_target, name: 'throw_after_creating'
+      },
+    }
+  });
+
+  return item;
+};
+
+async function create_scenario_02_export() {
+  try {
+    console.log('STEP-01: Use the basic-authorization for the SFTP-Server');
+    console.log('STEP-02: Use the connection for the SFTP-Server');
+    console.log('STEP-03: Use the webhook for upload a file');
+    console.log('STEP-04: Use the encryption algorithm');
+
+    console.log('STEP-05: Create the new template translator');
+    await create_ruby_template();
+
+    console.log('STEP-06: Create the new export-flow');
+    await create_flow_export();
+
+  } catch (err) {
+    console.log(JSON.stringify(err, null, 2))
+  }
+};
+
+create_scenario_02_export();
 ```
 
 <!-- tabs:end -->
